@@ -17,7 +17,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <haeder class="main-header">
+        <header class="main-header" id="main-header">
             <h1 class="logo">
                 <a href="#start">Freifunk Flensburg</a>
             </h1>
@@ -31,7 +31,7 @@
                     <li><a href="#contact">So findest du uns</a></li>
                 </ul>
             </nav>
-        </haeder>
+        </header>
         <main>
             <section name="start">
                 <?php include('content/start.php'); ?>

@@ -144,8 +144,23 @@ img {
     header (logo + navigation)
 */
 
+.main-header {
+    position: relative;
+}
+
+html.sticky .main-header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom: 2px solid #d3d3d3;
+}
+
 .logo {
-    float: left;
+    width: 150px;
+    padding: 10px 0;
 }
 
 .logo a {
@@ -153,14 +168,19 @@ img {
     text-indent: -9999px;
     background: transparent url(../images/freifunk-flensburg.png) 0 0 no-repeat;
     background-size: 100% auto;
-    width: 150px;
     height: 0;
-    padding-top: 76.285714%;
+    padding-top: 72%;
+}
+
+html.sticky .logo {
+    width: 75px;
+    padding: 10px;
 }
 
 .main-navigation {
-    float: right;
-    padding-top: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
 }
 
 .main-navigation ul {
@@ -179,6 +199,19 @@ img {
 
 .main-navigation ul li:last-child a {
     padding-right: 0;
+}
+
+@media all and (max-width:800px) {
+
+    .logo {
+        width: 75px;
+        padding: 10px;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
 }
 
 /*
@@ -217,8 +250,18 @@ img {
 }
 
 @media all and (max-width:600px) {
+    .start_simulate-wlan {
+        height: auto;
+    }
+
+    .start_simulate-wlan canvas {
+        display: none;
+    }
+
     .start_simulate-wlan figcaption h2 {
-        font-size: 3em;
+        position: static;
+        padding: 20px;
+        font-size: 2em;
     }
 }
 
