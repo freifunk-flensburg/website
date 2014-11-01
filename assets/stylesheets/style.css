@@ -218,6 +218,9 @@ img {
 /*
     faq section
 */
+.faq_hr1{
+    margin-top: 15px;
+}
 
 .faq_h2{
     background-color: #ffb400; /*freifunk-gelb*/
@@ -233,7 +236,7 @@ img {
 
 }
 
-.faq_content h3{
+.faq_content h4{
     padding: 2px;
     color: #fff;
     display: inline;
