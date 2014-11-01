@@ -291,10 +291,21 @@ html.sticky .logo {
     float: left;
     padding: 10px;
     margin: 5px;
+    margin-bottom: 20px;
     margin-left: 0;
-    max-width: 40%;
+
     /*background-color: #dc0067; /*freifunk-magenta*/*/
 
+}
+.faq_uneaven{
+    float: left;
+    width: 49%;
+
+}
+.faq_eaven{
+    width: 49%;
+    padding-top: 30px;
+    float: right;
 }
 .faq_content img{
     width:15%;
