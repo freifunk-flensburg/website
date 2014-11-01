@@ -269,6 +269,8 @@ html.sticky .logo {
 /*
     faq section
 */
+
+
 .faq_hr1{
     margin-top: 15px;
     border-color: lightgrey;
@@ -279,6 +281,7 @@ html.sticky .logo {
 }
 
 .faq_content{
+
     border-width: 2px;
     border-style: solid;
     border-color: lightgrey;
@@ -289,6 +292,10 @@ html.sticky .logo {
     max-width: 40%;
     /*background-color: #dc0067; /*freifunk-magenta*/*/
 
+}
+.faq_content img{
+    width:15%;
+    float: right;
 }
 
 .faq_content h4{
