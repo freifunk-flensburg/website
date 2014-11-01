@@ -1,1 +1,2 @@
-<h2>about</h2>
+<h2 class="main-caption">Was ist Freifunk Flensburg?</h2>
+<p>Freifunk Flensburg ist dein freies WLAN-Netz zum selber machen in Flensburg und Umgebung. Wir möchten möglichst vielen Menschen überall und jederzeit eine guten Zugang zum Internet bieten. Dafür arbeiten wir an einem Gemeinschaftsnetz, das jeder vergrößern und verbessern kann. Und über Freifunk surfen ist nicht nur kostenlos, sondern auch unbegrenzt.</p>

@@ -100,6 +100,13 @@ h4 {
     font-weight: 700;
 }
 
+.main-caption {
+    background-color: #ffb400; /*freifunk-gelb*/
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+}
+
 a {
     color: #000000;
 }
@@ -223,13 +230,6 @@ img {
 }
 .faq_hr2{
     width: 100%;
-}
-
-.faq_h2{
-    background-color: #ffb400; /*freifunk-gelb*/
-    padding: 10px;
-    display: inline;
-    
 }
 
 .faq_content{

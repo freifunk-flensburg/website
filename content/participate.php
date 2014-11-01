@@ -1,1 +1,1 @@
-<h2>participate</h2>
+<h2 class="main-caption">participate</h2>

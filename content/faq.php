@@ -1,4 +1,4 @@
-<h3 class="faq_h2">FAQ</h3>
+<h3 class="main-caption">FAQ</h3>
 <hr class="faq_hr1">
 <div class="faq_content">
 	<h4>Frage1</h4>
