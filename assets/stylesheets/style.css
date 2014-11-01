@@ -230,8 +230,13 @@ img {
 }
 
 .faq_content{
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
     float: left;
     padding: 10px;
+    margin: 5px;
+    max-width: 40%;
     /*background-color: #dc0067; /*freifunk-magenta*/*/
 
 }
@@ -240,8 +245,11 @@ img {
     padding: 2px;
     color: #fff;
     display: inline;
-    
     background-color: #dc0067; /*freifunk-magenta*/
+}
+
+.faq_content p{
+    padding-bottom: 10px;
 }
 
 /*
