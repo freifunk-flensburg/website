@@ -129,6 +129,10 @@ img {
     text-shadow: none;
 }
 
+.section-standard {
+    padding: 20px;
+}
+
 /*
     header (logo + navigation)
 */
@@ -211,18 +215,10 @@ img {
     }
 }
 
+/*
+    faq section
+*/
 
-
-
-
-
-
-
-
-
-.faq_body{
-    padding: 20px;
-}
 .faq_h2{
     background-color: #ffb400; /*freifunk-gelb*/
     padding: 10px;
@@ -243,4 +239,11 @@ img {
     display: inline;
     
     background-color: #dc0067; /*freifunk-magenta*/
+}
+
+/*
+    main footer
+*/
+.main-footer {
+    clear: both;
 }

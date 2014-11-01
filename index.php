@@ -36,24 +36,24 @@
             <section name="start">
                 <?php include('content/start.php'); ?>
             </section>
-            <section name="about">
+            <section name="about" class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
-            <section name="find-us">
+            <section name="find-us" class="section-standard">
                 <?php include('content/find-us.php'); ?>
             </section>
-            <section name="participate">
+            <section name="participate" class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
-            <section name="faq">
+            <section name="faq" class="section-standard">
                 <?php include('content/faq.php'); ?>
             </section>
-            <section name="contact">
+            <section name="contact" class="section-standard">
                 <?php include('content/contact.php'); ?>
             </section>
         </main>
-        <footer>
-        <a href="#start">Nach oben</a>
+        <footer class="main-footer">
+            <a href="#start">Nach oben</a>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
