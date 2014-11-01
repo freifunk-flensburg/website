@@ -40,9 +40,15 @@
             <section name="about" class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
+            <figure>
+                <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg">
+            </figure>
             <section name="find-us" class="section-standard">
                 <?php include('content/find-us.php'); ?>
             </section>
+            <figure>
+                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+            </figure>
             <section name="participate" class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
