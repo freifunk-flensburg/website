@@ -221,6 +221,9 @@ img {
 .faq_hr1{
     margin-top: 15px;
 }
+.faq_hr2{
+    width: 100%;
+}
 
 .faq_h2{
     background-color: #ffb400; /*freifunk-gelb*/

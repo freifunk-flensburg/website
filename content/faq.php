@@ -32,3 +32,5 @@
 	<h4>Antwort</h4>
 	<p>Das internet ist für uns alle neuland</p>
 </div>
+
+<hr class="faq_hr2">
