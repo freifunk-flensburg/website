@@ -103,7 +103,8 @@ h4 {
 .main-caption {
     background-color: #ffb400; /*freifunk-gelb*/
     color: #ffffff;
-    padding: 10px;
+    padding: 8px;
+    width: 25%;
     display: inline-block;
 }
 
@@ -292,8 +293,8 @@ html.sticky .logo {
 
 .faq_content h4{
     padding: 4px;
+    width: 5em;
     color: #fff;
-    display: inline;
     background-color: #dc0067; /*freifunk-magenta*/
 }
 
