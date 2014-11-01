@@ -65,16 +65,22 @@ $(document).ready(function() {
       dataType: 'script',
       cache: true, // otherwise will get fresh copy every page load
       success: function() {
-        var map = L.map('map').setView([51.505, -0.09], 13);
 
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        var map = L.map('map', {
+            scrollWheelZoom: false,
+            center: [54.790961, 9.435912],
+            zoom: 12
+        });
+
+        L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         
         var setNodeToMap = function(node) {
             console.log(node);
             if(node.geo && node.flags.online) {
-                L.marker([node.geo[0], node.geo[1]]).addTo(map).bindPopup(node.name).openPopup();
+                console.log(node);
+                L.marker([node.geo[0], node.geo[1]]).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
             }
         }
 
@@ -85,7 +91,4 @@ $(document).ready(function() {
       }
     });
 
-    // $.getJSON('test-nodes.json', function( data ) {
-    //     console.log(data.nodes);
-    // });
 });

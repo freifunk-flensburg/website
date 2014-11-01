@@ -162,6 +162,9 @@ html.sticky .main-header {
 .logo {
     width: 150px;
     padding: 10px 0;
+    transition: 300ms width;
+    -moz-transition: 300ms width;
+    -webkit-transition: 300ms width;
 }
 
 .logo a {
