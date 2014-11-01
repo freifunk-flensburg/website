@@ -66,7 +66,20 @@ $(document).ready(function() {
       cache: true, // otherwise will get fresh copy every page load
       success: function() {
 
+        var myIcon = L.icon({
+            iconUrl: 'assets/images/map-icon.png',
+            iconRetinaUrl: 'assets/images/map-icon.png',
+            iconSize: [50, 67],
+            iconAnchor: [22, 94],
+            popupAnchor: [-3, -76],
+            //shadowUrl: '/assets/images/map-icon.png',
+            //shadowRetinaUrl: '/assets/images/map-icon.png',
+            shadowSize: [0, 0],
+            shadowAnchor: [0, 0]
+        });
+
         var map = L.map('map', {
+            icon: myIcon,
             scrollWheelZoom: false,
             center: [54.790961, 9.435912],
             zoom: 12
@@ -77,10 +90,8 @@ $(document).ready(function() {
         }).addTo(map);
         
         var setNodeToMap = function(node) {
-            console.log(node);
             if(node.geo && node.flags.online) {
-                console.log(node);
-                L.marker([node.geo[0], node.geo[1]]).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
+                L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
             }
         }
 
