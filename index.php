@@ -17,8 +17,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header class="main-header" id="main-header">
-
+        <haeder class="main-header">
             <h1 class="logo">
                 <a href="#start">Freifunk Flensburg</a>
             </h1>
@@ -32,7 +31,7 @@
                     <li><a href="#contact">So findest du uns</a></li>
                 </ul>
             </nav>
-        </header>
+        </haeder>
         <main>
             <section name="start">
                 <?php include('content/start.php'); ?>
@@ -54,7 +53,6 @@
             </section>
         </main>
         <footer class="main-footer">
-            <a href="#start">Nach oben</a>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
