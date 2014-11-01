@@ -19,21 +19,43 @@
 
         <haeder>
             <h1>Freifunk Flensburg</h1>
+            <nav>
+                <ul>
+                    <li><a href="#start">Start</a></li>
+                    <li><a href="#about">Über</a></li>
+                    <li><a href="#find-us">In deiner Nähe</a></li>
+                    <li><a href="#participate">Mitmachen</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">So findest du uns</a></li>
+                </ul>
+            </nav>
         </haeder>
         <main>
-            <?php include('content/start.php'); ?>
-            <?php include('contetnt/about.php'); ?>
-            <?php include('contetnt/find-us.php'); ?>
-            <?php include('contetnt/participate.php'); ?>
-            <?php include('contetnt/faq.php'); ?>
-            <?php include('contetnt/contact.php'); ?>
+            <section name="start">
+                <?php include('content/start.php'); ?>
+            </section>
+            <section name="about">
+                <?php include('content/about.php'); ?>
+            </section>
+            <section name="find-us">
+                <?php include('content/find-us.php'); ?>
+            </section>
+            <section name="participate">
+                <?php include('content/participate.php'); ?>
+            </section>
+            <section name="faq">
+                <?php include('content/faq.php'); ?>
+            </section>
+            <section name="contact">
+                <?php include('content/contact.php'); ?>
+            </section>
         </main>
         <footer>
+        <a href="#start">Nach oben</a>
         </footer>
-
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="assets/javascript/main.js"></script>
+        <script src="assets/javascripts/jquery.main.js"></script>
     </body>
 </html>
