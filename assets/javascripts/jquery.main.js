@@ -65,16 +65,33 @@ $(document).ready(function() {
       dataType: 'script',
       cache: true, // otherwise will get fresh copy every page load
       success: function() {
-        var map = L.map('map').setView([51.505, -0.09], 13);
 
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        var myIcon = L.icon({
+            iconUrl: 'assets/images/map-icon.png',
+            iconRetinaUrl: 'assets/images/map-icon.png',
+            iconSize: [50, 67],
+            iconAnchor: [22, 94],
+            popupAnchor: [-3, -76],
+            //shadowUrl: '/assets/images/map-icon.png',
+            //shadowRetinaUrl: '/assets/images/map-icon.png',
+            shadowSize: [0, 0],
+            shadowAnchor: [0, 0]
+        });
+
+        var map = L.map('map', {
+            icon: myIcon,
+            scrollWheelZoom: false,
+            center: [54.790961, 9.435912],
+            zoom: 12
+        });
+
+        L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         
         var setNodeToMap = function(node) {
-            console.log(node);
             if(node.geo && node.flags.online) {
-                L.marker([node.geo[0], node.geo[1]]).addTo(map).bindPopup(node.name).openPopup();
+                L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
             }
         }
 
@@ -85,7 +102,4 @@ $(document).ready(function() {
       }
     });
 
-    // $.getJSON('test-nodes.json', function( data ) {
-    //     console.log(data.nodes);
-    // });
 });
