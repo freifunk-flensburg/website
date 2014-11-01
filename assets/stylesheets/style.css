@@ -314,3 +314,19 @@ html.sticky .logo {
     border-color: darkgrey;
 }
 
+/*contact-section*/
+.contact_content{
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0;
+    max-width: 40%;
+}
+
+.contact_hr1{
+        margin-top: 15px;
+    border-color: lightgrey;
+}
