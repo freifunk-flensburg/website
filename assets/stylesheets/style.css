@@ -236,13 +236,14 @@ img {
     float: left;
     padding: 10px;
     margin: 5px;
+    margin-left: 0;
     max-width: 40%;
     /*background-color: #dc0067; /*freifunk-magenta*/*/
 
 }
 
 .faq_content h4{
-    padding: 2px;
+    padding: 4px;
     color: #fff;
     display: inline;
     background-color: #dc0067; /*freifunk-magenta*/
