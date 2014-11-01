@@ -1,1 +1,1 @@
-<h2>find us</h2>
+<h2 class="main-caption">find us</h2>
