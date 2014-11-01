@@ -17,9 +17,11 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <haeder>
-            <h1>Freifunk Flensburg</h1>
-            <nav>
+        <haeder class="main-header">
+            <h1 class="logo">
+                <a href="#start">Freifunk Flensburg</a>
+            </h1>
+            <nav class="main-navigation">
                 <ul>
                     <li><a href="#start">Start</a></li>
                     <li><a href="#about">Über</a></li>
