@@ -206,3 +206,37 @@ img {
         font-size: 3em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.faq_body{
+    padding: 20px;
+}
+.faq_h2{
+    background-color: #ffb400; /*freifunk-gelb*/
+    padding: 10px;
+    display: inline;
+    
+}
+
+.faq_content{
+    float: left;
+    padding: 10px;
+    /*background-color: #dc0067; /*freifunk-magenta*/*/
+
+}
+
+.faq_content h3{
+    padding: 2px;
+    color: #fff;
+    display: inline;
+    
+    background-color: #dc0067; /*freifunk-magenta*/
+}
