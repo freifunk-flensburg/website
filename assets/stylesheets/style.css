@@ -220,8 +220,10 @@ img {
 */
 .faq_hr1{
     margin-top: 15px;
+    border-color: lightgrey;
 }
 .faq_hr2{
+    border-color: lightgrey;
     width: 100%;
 }
 
