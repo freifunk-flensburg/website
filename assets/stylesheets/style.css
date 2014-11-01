@@ -80,6 +80,8 @@ html {
     
 body {
     line-height: 1.4;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -121,4 +123,44 @@ img {
     background: #dc0067;
     color: #ffffff;
     text-shadow: none;
+}
+
+/*
+    start section
+*/
+
+.start_simulate-wlan {
+    background-color: #dc0067;
+    position: relative;
+    height: 400px;
+}
+
+.start_simulate-wlan canvas {
+    opacity: 0.5;
+}
+
+.start_simulate-wlan figcaption h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    left: 0;
+    top: 50%;
+    font-size: 5em;
+    line-height: 1;
+    margin-top: -40px;
+    padding: 0 20px;
+}
+
+@media all and (max-width:1080px) {
+    .start_simulate-wlan figcaption h2 {
+        font-size: 4em;
+    }
+}
+
+@media all and (max-width:600px) {
+    .start_simulate-wlan figcaption h2 {
+        font-size: 3em;
+    }
 }
