@@ -21,12 +21,12 @@
             <h1>Freifunk Flensburg</h1>
         </haeder>
         <main>
-            <?php include('start.php'); ?>
-            <?php include('about.php'); ?>
-            <?php include('find-us.php'); ?>
-            <?php include('participate.php'); ?>
-            <?php include('faq.php'); ?>
-            <?php include('contact.php'); ?>
+            <?php include('content/start.php'); ?>
+            <?php include('contetnt/about.php'); ?>
+            <?php include('contetnt/find-us.php'); ?>
+            <?php include('contetnt/participate.php'); ?>
+            <?php include('contetnt/faq.php'); ?>
+            <?php include('contetnt/contact.php'); ?>
         </main>
         <footer>
         </footer>
