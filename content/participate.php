@@ -34,7 +34,7 @@
     <div class="participate_firmware">
         <?php include('firmware-downloader/firmware.php'); ?>
     </div>
-        - Wikipömlk
+        - Wiki
         - Freifunk.net
         - Github
         - Map
