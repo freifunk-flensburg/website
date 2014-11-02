@@ -80,10 +80,20 @@
             </section>
         </main>
         <footer class="main-footer">
-            <a href="https://www.facebook.com/FreifunkFlensburg" class="footer_facebook" target="_blank">Facebook</a>
-            <a href="https://twitter.com/FreiFunkFlens" class="footer_twitter" target="_blank">Twitter</a>
-            <a href="http://nordlab-ev.de" class="footer_nordlab" target="_blank">nordlab e.V.</a>
-            <a href="http://freifunk.net/" class="footer_freifunk" target="_blank">freifunk.net</a>
+            <ul class="list-external-links">
+                <li>
+                    <a href="https://www.facebook.com/FreifunkFlensburg" class="facebook" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/FreiFunkFlens" class="twitter" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="http://nordlab-ev.de" class="nordlab" target="_blank">nordlab e.V.</a>
+                </li>
+                <li>
+                    <a href="http://freifunk.net/" class="freifunk" target="_blank">freifunk.net</a>
+                </li>
+            </ul>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

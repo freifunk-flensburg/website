@@ -473,40 +473,37 @@ html.sticky .logo a {
     clear: both;
     padding: 20px;
     background-color: lightgrey;
-    border-top: 1px;
-    border-style: solid;
-    border-color: darkgrey;
 }
 
-.footer_facebook{
-    background-color: #47639e;
-    padding: 4px;
+.list-external-links {
+    list-style: none;
+    text-align: center;
+}
+
+.list-external-links li {
+    display: inline-block;
+}
+
+.list-external-links li a {
+    display: block;
+    padding: 8px;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
-
 }
-.footer_twitter{
 
-background-color: #32acd5;
-padding: 4px;
-text-decoration: none;
-color: #fff;
-font-weight: 700;    
+.list-external-links li a.facebook {
+    background-color: #47639e;
 }
-.footer_nordlab{
 
-background-color: #232323;
-padding: 4px;
-text-decoration: none;
-color: #fff;
-font-weight: 700;    
+.list-external-links li a.twitter {
+    background-color: #32acd5;
 }
-.footer_freifunk{
 
-background-color: #dc0067;
-padding: 4px;
-text-decoration: none;
-color: #fff;
-font-weight: 700;    
+.list-external-links li a.nordlab {
+    background-color: #232323;
+}
+
+.list-external-links li a.freifunk {
+    background-color: #dc0067;
 }
