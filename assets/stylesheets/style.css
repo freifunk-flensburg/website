@@ -324,8 +324,6 @@ html.sticky .logo {
     margin-bottom: 20px;
     margin-left: 0;
 
-    /*background-color: #dc0067; /*freifunk-magenta*/*/
-
 }
 .faq_uneaven{
     float: left;
@@ -361,13 +359,17 @@ html.sticky .logo {
     float: left;
     padding: 10px;
     margin: 5px;
+    margin-bottom: 20px;
     margin-left: 0;
+}
+.contact_left{
+    float: left;
     width: 49%;
 }
 
-.contact_hr1{
-        margin-top: 15px;
-    border-color: lightgrey;
+.contact_right{
+    width: 49%;
+    float: right;
 }
 /*about-section*/
 .about_main{
