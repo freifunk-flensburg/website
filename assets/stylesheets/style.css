@@ -293,9 +293,16 @@ html.sticky .logo {
 }
 
 /*
-    faq section
+    map section
 */
 
+.map {
+    height: 600px;
+}
+
+/*
+    faq section
+*/
 
 .faq_hr1{
     margin-top: 15px;
@@ -346,18 +353,6 @@ html.sticky .logo {
     padding-bottom: 10px;
 }
 
-/*
-    main footer
-*/
-.main-footer {
-    clear: both;
-    padding: 20px;
-    background-color: lightgrey;
-    border-top: 1px;
-    border-style: solid;
-    border-color: darkgrey;
-}
-
 /*contact-section*/
 .contact_content{
     border-width: 2px;
@@ -378,4 +373,16 @@ html.sticky .logo {
 .about_main{
     width: 70%;
     
+}
+
+/*
+    main footer
+*/
+.main-footer {
+    clear: both;
+    padding: 20px;
+    background-color: lightgrey;
+    border-top: 1px;
+    border-style: solid;
+    border-color: darkgrey;
 }
