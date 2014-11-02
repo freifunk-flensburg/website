@@ -378,6 +378,13 @@ html.sticky .logo a {
     display: block;
 }
 
+.participate_firmware{
+    border:2px;
+    border-style: solid;
+    border-color: lightgrey;
+    width: 50%;
+}
+
 /*
     faq section
 */

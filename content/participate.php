@@ -30,7 +30,11 @@
         <p>Dann kontaktiere uns. Wo du uns genau findest, ob online oder offline, findest du <a href="#contact">unter Kontakt</a>.</p>
     </article>
     <article id="member" class="participate_show-customer">
-        - Wiki
+
+    <div class="participate_firmware">
+        <?php include('firmware-downloader/firmware.php'); ?>
+    </div>
+        - Wikipömlk
         - Freifunk.net
         - Github
         - Map
