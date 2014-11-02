@@ -1,0 +1,2 @@
+here you need to insert sysupgrade an factory folder containing firmwareimages.
+
