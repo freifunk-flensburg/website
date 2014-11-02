@@ -82,7 +82,7 @@ $(document).ready(function() {
             icon: myIcon,
             scrollWheelZoom: false,
             center: [54.790961, 9.435912],
-            zoom: 12
+            zoom: 13
         });
 
         L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {

@@ -18,21 +18,23 @@
             <aside class="browse-happy">Du benutzt einen <strong>veralteten</strong> Webbrowser. Einige Funktionen dieser Webseite werden leider nicht funktionieren. Du kannst einen neuen <a target="_blank" href="http://browsehappy.com/">sicheren Webbrowser herunterladen</a>, um dein Erlebnis auf unserer und anderen Internetseiten zu verbessern.</p></aside>
         <![endif]-->
 
-        <header class="main-header" id="main-header">
-            <h1 class="logo">
-                <a href="#start">Freifunk Flensburg</a>
-            </h1>
-            <nav class="main-navigation">
-                <ul>
-                    <li><a href="#start">Start</a></li>
-                    <li><a href="#about">Über</a></li>
-                    <li><a href="#find-us">Karte</a></li>
-                    <li><a href="#participate">Mitmachen</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contact">Kontakt</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="main-header-wrap">
+            <header id="main-header">
+                <h1 class="logo">
+                    <a href="#start">Freifunk Flensburg</a>
+                </h1>
+                <nav class="main-navigation">
+                    <ul>
+                        <li><a href="#start">Start</a></li>
+                        <li><a href="#about">Über</a></li>
+                        <li><a href="#find-us">Karte</a></li>
+                        <li><a href="#participate">Mitmachen</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
         <main>
             <section name="start">
                 <?php include('content/start.php'); ?>
@@ -52,14 +54,14 @@
             <figure name="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Werde Freifunker</h2>
+                    <h2>Mach mit!</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
             <figure name="faq" class="section-image">
-                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg">
                 <figcaption>
                     <h2>Fragen und Antworten</h2>
                 </figcaption>
