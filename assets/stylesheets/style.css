@@ -388,3 +388,20 @@ html.sticky .logo {
     border-style: solid;
     border-color: darkgrey;
 }
+
+.footer_facebook{
+    background-color: #47639e;
+    padding: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+
+}
+.footer_twitter{
+
+background-color: #32acd5;
+padding: 4px;
+text-decoration: none;
+color: #fff;
+font-weight: 700;    
+}
