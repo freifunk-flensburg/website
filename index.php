@@ -78,10 +78,10 @@
             </section>
         </main>
         <footer class="main-footer">
-            <a href="https://www.facebook.com/FreifunkFlensburg" class="footer_facebook">Facebook</a>
-            <a href="https://twitter.com/FreiFunkFlens" class="footer_twitter">Twitter</a>
-            <a href="http://nordlab-ev.de" class="footer_nordlab">nordlab e.V.</a>
-            <a href="http://freifunk.net/" class="footer_freifunk">freifunk.net</a>
+            <a href="https://www.facebook.com/FreifunkFlensburg" class="footer_facebook" target="_blank">Facebook</a>
+            <a href="https://twitter.com/FreiFunkFlens" class="footer_twitter" target="_blank">Twitter</a>
+            <a href="http://nordlab-ev.de" class="footer_nordlab" target="_blank">nordlab e.V.</a>
+            <a href="http://freifunk.net/" class="footer_freifunk" target="_blank">freifunk.net</a>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
