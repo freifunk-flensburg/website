@@ -463,30 +463,30 @@ html.sticky .logo a {
     }
 }
 
-/*contact-section*/
+/*
+    contact-section
+*/
 .contact_content{
     border-width: 2px;
     border-style: solid;
     border-color: lightgrey;
-    float: left;
     padding: 10px;
-    margin: 5px;
-    margin-bottom: 20px;
-    margin-left: 0;
 }
 .contact_left{
     float: left;
-    width: 49%;
+    width: 50%;
+    padding-right: 10px;
 }
 
 .contact_right{
-    width: 49%;
+    width: 50%;
     float: right;
+    padding-left: 10px;
 }
-/*about-section*/
-.about_main {
 
-}
+/*
+    about-section
+*/
 
 .about_main figure {
     width: 30%;
