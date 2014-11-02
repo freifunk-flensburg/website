@@ -45,7 +45,7 @@
             <figure name="find-us" class="section-image">
                 <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>In deiner Nähe</h2>
+                    <h2>Auch in deiner Nähe</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -54,7 +54,7 @@
             <figure name="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Mach mit!</h2>
+                    <h2>Mach mit, bewege Bytes</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -63,7 +63,7 @@
             <figure name="faq" class="section-image">
                 <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Fragen und Antworten</h2>
+                    <h2>Wir haben Antworten</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -80,10 +80,20 @@
             </section>
         </main>
         <footer class="main-footer">
-            <a href="https://www.facebook.com/FreifunkFlensburg" class="footer_facebook" target="_blank">Facebook</a>
-            <a href="https://twitter.com/FreiFunkFlens" class="footer_twitter" target="_blank">Twitter</a>
-            <a href="http://nordlab-ev.de" class="footer_nordlab" target="_blank">nordlab e.V.</a>
-            <a href="http://freifunk.net/" class="footer_freifunk" target="_blank">freifunk.net</a>
+            <ul class="list-external-links">
+                <li>
+                    <a href="https://www.facebook.com/FreifunkFlensburg" class="facebook" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/FreiFunkFlens" class="twitter" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <a href="http://nordlab-ev.de" class="nordlab" target="_blank">nordlab e.V.</a>
+                </li>
+                <li>
+                    <a href="http://freifunk.net/" class="freifunk" target="_blank">freifunk.net</a>
+                </li>
+            </ul>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
