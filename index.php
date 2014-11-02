@@ -26,10 +26,10 @@
                 <ul>
                     <li><a href="#start">Start</a></li>
                     <li><a href="#about">Über</a></li>
-                    <li><a href="#find-us">In deiner Nähe</a></li>
+                    <li><a href="#find-us">Karte</a></li>
                     <li><a href="#participate">Mitmachen</a></li>
                     <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contact">So findest du uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
         </header>
@@ -52,7 +52,7 @@
             <figure name="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Mitmachen</h2>
+                    <h2>Werde Freifunker</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -61,16 +61,16 @@
             <figure name="faq" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>FAQ</h2>
+                    <h2>Fragen und Antworten</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
                 <?php include('content/faq.php'); ?>
             </section>
             <figure name="contact" class="section-image">
-                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <img src="media/freifunk-flensburg-kontakte.jpg">
                 <figcaption>
-                    <h2>So erreichst du uns</h2>
+                    <h2>Jede Menge Kontakt(e)</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
