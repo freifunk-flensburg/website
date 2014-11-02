@@ -42,13 +42,13 @@
             <section name="about" class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
-            <figure name="find-us" class="section-image">
+            <figure class="section-image">
                 <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg" alt="Freifunk Flensburg - auch in deiner Nähe">
                 <figcaption>
                     <h2>Auch in deiner Nähe</h2>
                 </figcaption>
             </figure>
-            <section class="section-standard">
+            <section name="find-us" class="section-standard">
                 <?php include('content/find-us.php'); ?>
             </section>
             <figure name="participate" class="section-image">
