@@ -103,3 +103,19 @@ $(document).ready(function() {
     });
 
 });
+
+/* 
+    choose customer
+*/
+$(document).ready(function() {
+    var $chooseCustomerItems = $('#choose-customer li');
+    var $showCustomerItems = $('#show-customer article');
+
+    $chooseCustomerItems.click(function() {
+        $chooseCustomerItems.removeClass('active');
+        $showCustomerItems.removeClass('active');
+        
+        $(this).addClass('active');
+        $('#'+$(this).data('show-customer')).addClass('active');
+    });
+});
