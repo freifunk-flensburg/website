@@ -1,1 +1,1 @@
-<h2 class="main-caption">Mitmachen</h2>
+<p>Inhalt</p>

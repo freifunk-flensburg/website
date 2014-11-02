@@ -40,22 +40,40 @@
             <section name="about" class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
-            <figure>
+            <figure name="find-us" class="section-image">
                 <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg">
+                <figcaption>
+                    <h2>In deiner Nähe</h2>
+                </figcaption>
             </figure>
-            <section name="find-us" class="section-standard">
+            <section class="section-standard">
                 <?php include('content/find-us.php'); ?>
             </section>
-            <figure>
+            <figure name="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <figcaption>
+                    <h2>Mitmachen</h2>
+                </figcaption>
             </figure>
-            <section name="participate" class="section-standard">
+            <section class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
-            <section name="faq" class="section-standard">
+            <figure name="faq" class="section-image">
+                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <figcaption>
+                    <h2>FAQ</h2>
+                </figcaption>
+            </figure>
+            <section class="section-standard">
                 <?php include('content/faq.php'); ?>
             </section>
-            <section name="contact" class="section-standard">
+            <figure name="contact" class="section-image">
+                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <figcaption>
+                    <h2>So erreichst du uns</h2>
+                </figcaption>
+            </figure>
+            <section class="section-standard">
                 <?php include('content/contact.php'); ?>
             </section>
         </main>

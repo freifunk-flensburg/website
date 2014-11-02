@@ -1,5 +1,3 @@
-<h3 class="main-caption">Kontakt</h3>
-<hr class="contact_hr1">
 <div class="contact_content">
 	<p>
 		So erreichst du uns solltest du dich für Freifunk interessieren und weitere Fragen haben. 

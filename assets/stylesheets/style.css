@@ -72,7 +72,7 @@ button::-moz-focus-inner {
 */
 
 html {
-    font-size: 100%;
+    font-size: 120%;
     background: #ffffff;
     color: #000000;
     font-family: 'Source Sans Pro', sans-serif;
@@ -80,8 +80,6 @@ html {
     
 body {
     line-height: 1.4;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 h1 {
@@ -106,6 +104,7 @@ h4 {
     padding: 8px;
     width: 25%;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 a {
@@ -138,7 +137,29 @@ img {
 }
 
 .section-standard {
-    padding: 20px;
+    padding: 60px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section-image {
+    position: relative;
+}
+
+.section-image figcaption h2 {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 0 0 30px #000;
+    font-size: 4em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.section-image img {
+    width: 100%;
 }
 
 /*
@@ -147,6 +168,8 @@ img {
 
 .main-header {
     position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 html.sticky .main-header {
@@ -241,7 +264,7 @@ html.sticky .logo {
     text-transform: uppercase;
     left: 0;
     top: 50%;
-    font-size: 5em;
+    font-size: 4em;
     line-height: 1;
     margin-top: -40px;
     padding: 0 20px;

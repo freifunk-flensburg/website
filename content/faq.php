@@ -1,5 +1,3 @@
-<h3 class="main-caption">FAQ</h3>
-<hr class="faq_hr1">
 <div class="faq_uneaven">
 	<div class="faq_content">
 	<img src="media/questionmark/questionmark.png"alt="">
@@ -58,4 +56,3 @@
 			<p>Ja das kannst du. Entweder kannst du dir selber einen Knoten kaufen oder wir kaufen einen für Dich und helfen dir gern bei der Einrichtung oder richten diesen fertig ein, so dass Du deinen Knoten nur noch in die Steckdose stecken musst und gegebenenfalls mit deinem Router verbinden musst. </p>
 	</div>
 </div>
-<hr class="faq_hr2">
