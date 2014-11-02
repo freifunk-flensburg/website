@@ -80,6 +80,7 @@
         <footer class="main-footer">
             <a href="https://www.facebook.com/FreifunkFlensburg" class="footer_facebook">Facebook</a>
             <a href="https://twitter.com/FreiFunkFlens" class="footer_twitter">Twitter</a>
+            <a href="http://nordlab-ev.de" class="footer_nordlab">nordlab e.V.</a>
         </footer>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
