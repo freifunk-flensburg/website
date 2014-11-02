@@ -328,6 +328,7 @@ html.sticky .logo a {
     width: 33.33333%;
     float: left;
     border-right: 2px solid #ffffff;
+    cursor: pointer;
 }
 
 .participate_list-choose-customer li:last-child {
@@ -336,8 +337,14 @@ html.sticky .logo a {
 
 .participate_list-choose-customer li header {
     background-color: #dc0067;
+    background-color: rgba(220, 0, 103, 0.7);
     color: #ffffff;
     padding: 40px 20px;
+}
+
+.participate_list-choose-customer li.active header,
+.participate_list-choose-customer li:hover header {
+    background-color: rgba(220, 0, 103, 1);
 }
 
 .participate_list-choose-customer li.active:after {
