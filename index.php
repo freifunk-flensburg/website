@@ -43,7 +43,7 @@
                 <?php include('content/about.php'); ?>
             </section>
             <figure name="find-us" class="section-image">
-                <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg">
+                <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg" alt="Freifunk Flensburg - auch in deiner Nähe">
                 <figcaption>
                     <h2>Auch in deiner Nähe</h2>
                 </figcaption>
@@ -52,7 +52,7 @@
                 <?php include('content/find-us.php'); ?>
             </section>
             <figure name="participate" class="section-image">
-                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
+                <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg" alt="Freifunk Flensburg - Router an der Hafenspitze">
                 <figcaption>
                     <h2>Mach mit, bewege Bytes</h2>
                 </figcaption>
@@ -61,7 +61,7 @@
                 <?php include('content/participate.php'); ?>
             </section>
             <figure name="faq" class="section-image">
-                <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg">
+                <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg" alt="Freifunk Flensburg - Mit den richtigen Antworten">
                 <figcaption>
                     <h2>Wir haben Antworten</h2>
                 </figcaption>
@@ -70,7 +70,7 @@
                 <?php include('content/faq.php'); ?>
             </section>
             <figure name="contact" class="section-image">
-                <img src="media/freifunk-flensburg-kontakte.jpg">
+                <img src="media/freifunk-flensburg-kontakte.jpg" alt="Basteln beim Freifunk Flensburg">
                 <figcaption>
                     <h2>Jede Menge Kontakt(e)</h2>
                 </figcaption>
@@ -82,16 +82,16 @@
         <footer class="main-footer">
             <ul class="list-external-links">
                 <li>
-                    <a href="https://www.facebook.com/FreifunkFlensburg" class="facebook" target="_blank">Facebook</a>
+                    <a href="https://www.facebook.com/FreifunkFlensburg" title="Erfahre mer über uns bei Facebook" class="facebook" target="_blank">Facebook</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/FreiFunkFlens" class="twitter" target="_blank">Twitter</a>
+                    <a href="https://twitter.com/FreiFunkFlens" title="Erfahre mer über uns bei Twitter" class="twitter" target="_blank">Twitter</a>
                 </li>
                 <li>
-                    <a href="http://nordlab-ev.de" class="nordlab" target="_blank">nordlab e.V.</a>
+                    <a href="http://nordlab-ev.de" class="nordlab" title="Wir gehören zum nordlab e.V." target="_blank">nordlab e.V.</a>
                 </li>
                 <li>
-                    <a href="http://freifunk.net/" class="freifunk" target="_blank">freifunk.net</a>
+                    <a href="http://freifunk.net/" class="freifunk" title="Freifunk Allgemein" target="_blank">freifunk.net</a>
                 </li>
             </ul>
         </footer>
