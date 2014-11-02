@@ -30,15 +30,22 @@
         <p>Dann kontaktiere uns. Wo du uns genau findest, ob online oder offline, findest du <a href="#contact">unter Kontakt</a>.</p>
     </article>
     <article id="member" class="participate_show-customer">
+    <div class="participate_left">
+    <div class="participate_content">
 
-    <div class="participate_firmware">
-        <?php include('firmware-downloader/firmware.php'); ?>
+            <?php include('firmware-downloader/firmware.php'); ?>
+        </div>
     </div>
-        - Wiki
-        - Freifunk.net
-        - Github
-        - Map
-        - Firmware herunterladen
+        <div class="participate_right">
+            <div class="participate_content">
+            <ul>
+                <li><a href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Wiki</a></li>
+                <li><a href="http://freifunk.net/">freifunk.net</a></li>
+                <li><a href="https://github.com/freifunk-flensburg">Github</a></li>
+                <li><a href="http://map.freifunk-flensburg.de">Mesh-Map</a></li>
+            </ul>
+            </div>
+        </div>
     </article>
     <article id="sponsor" class="participate_show-customer">
         - Suche nach Räumen

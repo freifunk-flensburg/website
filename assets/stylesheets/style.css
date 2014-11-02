@@ -386,13 +386,27 @@ html.sticky .logo a {
     display: block;
 }
 
-.participate_firmware{
-    border:2px;
+.participate_content {
+    border-width: 2px;
     border-style: solid;
     border-color: lightgrey;
-    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
+
+.participate_left{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.participate_right{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 10px;
+    float: right;
+}
 /*
     faq section
 */
