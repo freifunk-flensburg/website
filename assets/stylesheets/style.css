@@ -382,6 +382,12 @@ html.sticky .logo a {
     display: none;
 }
 
+.participate_show-customer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .participate_show-customer.active {
     display: block;
 }
@@ -403,7 +409,6 @@ html.sticky .logo a {
 
 .participate_right{
     width: 50%;
-    padding-top: 20px;
     padding-left: 10px;
     float: right;
 }
