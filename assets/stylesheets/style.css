@@ -320,23 +320,27 @@ html.sticky .logo a {
     participate section
 */
 
-.participate_list {
+.participate_list-choose-customer {
     list-style: none;
 }
 
-.participate_list li {
+.participate_list-choose-customer li {
     width: 33.33333%;
     float: left;
-    border-right: 1px solid #ffffff;
+    border-right: 2px solid #ffffff;
 }
 
-.participate_list li header {
+.participate_list-choose-customer li:last-child {
+    border: 0;
+}
+
+.participate_list-choose-customer li header {
     background-color: #dc0067;
     color: #ffffff;
     padding: 40px 20px;
 }
 
-.participate_list li.active:after {
+.participate_list-choose-customer li.active:after {
     content: '';
     display: block;
     margin-left: 20px;
@@ -348,14 +352,23 @@ html.sticky .logo a {
     border-top: 20px solid #dc0067;
 }
 
-.participate_list li section {
-    padding: 20px;
-}
-
-.participate_list:after {
+.participate_list-choose-customer:after {
     content: '';
     display: block;
     clear: both;
+}
+
+.participate_show-customer {
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    padding: 40px 20px 20px 20px;
+    margin-top: -20px;
+    display: none;
+}
+
+.participate_show-customer.active {
+    display: block;
 }
 
 /*
