@@ -67,8 +67,8 @@ $(document).ready(function() {
       success: function() {
 
         var myIcon = L.icon({
-            iconUrl: 'assets/images/map-icon.png',
-            iconRetinaUrl: 'assets/images/map-icon.png',
+            iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
+            iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconSize: [40, 42],
             iconAnchor: [40, 42],
             popupAnchor: [-20, -42]
