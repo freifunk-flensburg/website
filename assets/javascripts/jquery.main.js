@@ -70,12 +70,8 @@ $(document).ready(function() {
             iconUrl: 'assets/images/map-icon.png',
             iconRetinaUrl: 'assets/images/map-icon.png',
             iconSize: [40, 42],
-            iconAnchor: [22, 94],
-            popupAnchor: [-3, -76],
-            //shadowUrl: '/assets/images/map-icon.png',
-            //shadowRetinaUrl: '/assets/images/map-icon.png',
-            shadowSize: [0, 0],
-            shadowAnchor: [0, 0]
+            iconAnchor: [40, 42],
+            popupAnchor: [-20, -42]
         });
 
         var map = L.map('map', {
