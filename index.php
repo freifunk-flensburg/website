@@ -45,7 +45,7 @@
             <figure name="find-us" class="section-image">
                 <img src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>In deiner Nähe</h2>
+                    <h2>Auch in deiner Nähe</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -54,7 +54,7 @@
             <figure name="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Mach mit!</h2>
+                    <h2>Mach mit, bewege Bytes</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
@@ -63,7 +63,7 @@
             <figure name="faq" class="section-image">
                 <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg">
                 <figcaption>
-                    <h2>Fragen und Antworten</h2>
+                    <h2>Wir haben Antworten</h2>
                 </figcaption>
             </figure>
             <section class="section-standard">
