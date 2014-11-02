@@ -124,6 +124,14 @@ img {
     vertical-align: bottom;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 ::-moz-selection {
     background: #dc0067;
     color: #ffffff;
@@ -166,24 +174,26 @@ img {
     header (logo + navigation)
 */
 
-.main-header {
+.main-header-wrap {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.main-header-wrap header {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-html.sticky .main-header {
+html.sticky .main-header-wrap {
+    border-bottom: 2px solid #d3d3d3;
     position: fixed;
     top: 0;
-    z-index: 2;
-    width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border-bottom: 2px solid #d3d3d3;
+    z-index: 2342;
 }
 
 .logo {
-    width: 150px;
+    width: 256px;
     padding: 10px 0;
     transition: 300ms width;
     -moz-transition: 300ms width;
@@ -196,12 +206,18 @@ html.sticky .main-header {
     background: transparent url(../images/freifunk-flensburg.png) 0 0 no-repeat;
     background-size: 100% auto;
     height: 0;
-    padding-top: 72%;
+    padding-top: 31.25%;
 }
 
 html.sticky .logo {
-    width: 75px;
+    width: 200px;
     padding: 10px;
+    margin-left: -90px
+}
+
+html.sticky .logo a {
+    background-position: 110px 0;
+    overflow: hidden;
 }
 
 .main-navigation {
@@ -301,6 +317,48 @@ html.sticky .logo {
 }
 
 /*
+    participate section
+*/
+
+.participate_list {
+    list-style: none;
+}
+
+.participate_list li {
+    width: 33.33333%;
+    float: left;
+    border-right: 1px solid #ffffff;
+}
+
+.participate_list li header {
+    background-color: #dc0067;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+
+.participate_list li.active:after {
+    content: '';
+    display: block;
+    margin-left: 20px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #dc0067;
+}
+
+.participate_list li section {
+    padding: 20px;
+}
+
+.participate_list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*
     faq section
 */
 
@@ -372,9 +430,20 @@ html.sticky .logo {
     float: right;
 }
 /*about-section*/
-.about_main{
-    width: 70%;
-    
+.about_main {
+
+}
+
+.about_main figure {
+    width: 30%;
+    padding-left: 20px;
+    float: right;
+}
+
+.about_main:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 /*
