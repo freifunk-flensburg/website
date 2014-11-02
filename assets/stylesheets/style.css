@@ -150,6 +150,13 @@ p:last-child {
     max-width: 1200px;
 }
 
+
+.section-standard:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .section-image {
     position: relative;
 }
@@ -389,51 +396,56 @@ html.sticky .logo a {
     faq section
 */
 
-.faq_hr1{
-    margin-top: 15px;
-    border-color: lightgrey;
-}
-.faq_hr2{
-    border-color: lightgrey;
-    width: 100%;
+.faq_odd {
+    float: left;
+    width: 50%;
+    padding-right: 10px;
 }
 
-.faq_content{
+.faq_even {
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 10px;
+    float: right;
+}
 
+.faq_content {
     border-width: 2px;
     border-style: solid;
     border-color: lightgrey;
-    float: left;
     padding: 10px;
-    margin: 5px;
     margin-bottom: 20px;
-    margin-left: 0;
-
 }
-.faq_uneaven{
-    float: left;
-    width: 49%;
 
-}
-.faq_eaven{
-    width: 49%;
-    padding-top: 30px;
+.faq_content:before {
+    content: '?';
+    display: block;
+    line-height: 1;
     float: right;
-}
-.faq_content img{
-    width:15%;
-    float: right;
+    font-size: 8em;
+    font-weight: bold;
+    color: #dc0067;
+    color: rgba(220, 0, 103, 0.5);
 }
 
-.faq_content h4{
-    padding: 4px;
-    width: 5em;
-    color: #fff;
+.faq_content h4 {
+    padding: 8px;
+    color: #ffffff;
     background-color: #dc0067; /*freifunk-magenta*/
+    display: inline-block;
 }
 
-.faq_content p{
-    padding-bottom: 10px;
+@media all and (max-width:600px) {
+    .faq_odd,
+    .faq_even {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+
+    .faq_content {
+        margin-bottom: 20px;
+    }
 }
 
 /*contact-section*/
