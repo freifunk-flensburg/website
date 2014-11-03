@@ -11,8 +11,8 @@
 </div>
 <div class="contact_right">
 	<h3>Online</h3>
-	E-Mail-Adresse: <a href="mailto:presse@freifunk-flensburg.de">presse@freifunk-flensburg.de</a><br>
-	Facebook: <a href="https://www.facebook.com/FreifunkFlensburg">facebook.com/FreifunkFlensburg</a><br>
-	Twitter: <a href="https://twitter.com/FreiFunkFlens">@FreiFunkFlens</a><br>
-	IRC: <a href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a>
+	E-Mail-Adresse: <a target="_blank" href="mailto:presse@freifunk-flensburg.de">presse@freifunk-flensburg.de</a><br>
+	Facebook: <a target="_blank" href="https://www.facebook.com/FreifunkFlensburg">facebook.com/FreifunkFlensburg</a><br>
+	Twitter: <a target="_blank" href="https://twitter.com/FreiFunkFlens">@FreiFunkFlens</a><br>
+	IRC: <a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a>
 </div>
