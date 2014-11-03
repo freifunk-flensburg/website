@@ -195,6 +195,7 @@ p:last-child {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2em;
 }
 
 html.sticky .main-header-wrap {
@@ -215,12 +216,6 @@ html.sticky .start_simulate-wlan {
 .logo {
     width: 256px;
     padding: 1em 0;
-    transition: 800ms width;
-    -moz-transition: 800ms width;
-    -webkit-transition: 800ms width;
-    transition: padding 1200ms;
-    -moz-transition: padding 1200ms;
-    -webkit-transition: padding 1200ms;
 }
 
 .logo a {
@@ -235,18 +230,12 @@ html.sticky .start_simulate-wlan {
 html.sticky .logo {
     width: 200px;
     padding: 1em;
-    margin-left: -90px
-    transition: 800ms width;
-    -moz-transition: 800ms width;
-    -webkit-transition: 800ms width;
+    margin-left: -116px
 }
 
 html.sticky .logo a {
-    background-position: 110px 0;
+    background-position: 98px 0;
     overflow: hidden;
-    transition: background-position 800ms;
-    -moz-transition: background-position 800ms;
-    -webkit-transition: background-position 800ms;
 }
 
 .main-navigation {
