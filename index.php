@@ -97,9 +97,9 @@
             </ul>
         </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="assets/javascripts/jquery.particleground.min.js"></script>
-        <script src="assets/javascripts/jquery.main.js"></script>
+        <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/javascripts/jquery-1.11.1.min.js"><\/script>')</script>
+        <script async src="assets/javascripts/jquery.particleground.min.js"></script>
+        <script async src="assets/javascripts/jquery.main.js"></script>
     </body>
 </html>

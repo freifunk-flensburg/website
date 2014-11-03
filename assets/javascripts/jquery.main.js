@@ -69,7 +69,7 @@ $(document).ready(function() {
     $.ajax({
       url: 'assets/javascripts/leaflet-0.7.3/leaflet.js',
       dataType: 'script',
-      cache: true, // otherwise will get fresh copy every page load
+      cache: true,
       success: function() {
 
         var myIcon = L.icon({
@@ -136,7 +136,6 @@ $(document).ready(function() {
     firmware download
 */
 $(document).ready(function() {
-
     $('#download-form').submit(function( event ) {
         event.preventDefault();
 
