@@ -574,19 +574,14 @@ html.sticky .logo a {
 /*  contact section
     ========================================================================== */
 
-.contact_content{
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d3d3d3; /* light grey */
-    padding: 1em;
-}
-.contact_left{
+.contact_left {
     float: left;
     width: 50%;
     padding-right: 1em;
+    border-right: 2px solid #d3d3d3; /* light grey */
 }
 
-.contact_right{
+.contact_right {
     width: 50%;
     float: right;
     padding-left: 1em;
