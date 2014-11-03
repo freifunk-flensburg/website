@@ -67,7 +67,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $.ajax({
-      url: '//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js',
+      url: 'assets/javascripts/leaflet-0.7.3/leaflet.js',
       dataType: 'script',
       cache: true, // otherwise will get fresh copy every page load
       success: function() {
