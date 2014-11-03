@@ -203,6 +203,10 @@ html.sticky .main-header-wrap {
 
 /* ofset for better scrolling  ask spralexx */
 html.sticky .start_simulate-wlan{
+    
+        transition: margin 1200ms;
+    -moz-transition: margin 1200ms;
+    -webkit-transition: margin 1200ms;
     margin-top: 8%;
 }
 
