@@ -202,9 +202,9 @@ html.sticky .main-header-wrap {
 .logo {
     width: 256px;
     padding: 10px 0;
-    transition: 300ms width;
-    -moz-transition: 300ms width;
-    -webkit-transition: 300ms width;
+    transition: 800ms width;
+    -moz-transition: 800ms width;
+    -webkit-transition: 800ms width;
 }
 
 .logo a {
