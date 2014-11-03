@@ -336,14 +336,21 @@ html.sticky .logo a {
     opacity: 0.5;
 }
 
-.start_simulate-wlan figcaption h2 {
+.start_simulate-wlan figcaption {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
+    display: table;
+}
+
+.start_simulate-wlan figcaption h2 {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
     color: #ffffff; /* white */
     text-transform: uppercase;
-    left: 0;
-    top: 50%;
     font-size: 4em;
     line-height: 1;
     margin-top: -1em;

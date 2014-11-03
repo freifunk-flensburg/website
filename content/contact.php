@@ -6,7 +6,7 @@
 		Freifunk Flensburg <br>
 		c/o nordlab e.V. <br>
 		Rude 27 <br>
-		24941 Flensburg <br>
+		24941 Flensburg
 	</address>
 </div>
 <div class="contact_right">
