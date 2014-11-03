@@ -494,8 +494,6 @@ html.sticky .logo a {
     color: #ffffff; /* white */
     background-color: #dc0067; /* freifunk magenta */;
     border-color: #dc0067; /* freifunk magenta */;
-    float: left;
-    margin-right: 1em;
 }
 
 .participate_download-form .button:hover {

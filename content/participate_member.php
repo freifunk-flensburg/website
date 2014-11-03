@@ -1,5 +1,5 @@
 <form class="participate_download-form" id="download-form">
-    <h3>Firmware Downloader</h3>
+    <h3>Firmware (<?php echo $versionNumber; ?>)</h3>
     <label>Wähle eine Aktion aus</label>
     <div class="select-field">
         <select id="download-form-type">
@@ -46,8 +46,8 @@
             <option value="gluon-fffl-<?php echo $versionNumber; ?>-ubiquiti-unifiap-outdoor">Ubiquiti UniFi AP-Outdoor</option>
         </select>
     </div>
-    <button class="button">Auswahl herunterladen</button>
-    <a class="button" href="firmware-downloader/files/all_images.zip">Alle herunterladen</a>
+    <button class="button">Herunterladen</button>
+    <p>Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
     <h2>Freifunk Flensburg Links</h2>
