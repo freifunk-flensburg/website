@@ -10,7 +10,7 @@ $(function() {
             if($(this).attr('href') == '#start') {
                 scrollTopValue = 0;
             } else {
-                scrollTopValue = target.offset().top - $('#main-header').height();
+                scrollTopValue = target.offset().top;
             }
             if (target.length) {
                 $('html,body').animate({
