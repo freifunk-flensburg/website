@@ -11,7 +11,6 @@
         <meta name="description" content="Freifunk Flensburg ist dein freies WLAN zum selber machen, in Flensburg und Umgebung.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css">
         <link rel="stylesheet" href="assets/stylesheets/style.css">
     </head>
     <body>
@@ -97,8 +96,7 @@
             </ul>
         </footer>
 
-        <script async src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="assets/javascripts/jquery-1.11.1.min.js"><\/script>')</script>
+        <script async src="assets/javascripts/jquery-1.11.1.min.js"></script>
         <script async src="assets/javascripts/jquery.particleground.min.js"></script>
         <script async src="assets/javascripts/jquery.main.js"></script>
     </body>
