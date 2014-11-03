@@ -184,12 +184,14 @@ p:last-child {
 .main-header-wrap {
     background-color: #ffffff;
     width: 100%;
+    
 }
 
 .main-header-wrap header {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+
 }
 
 html.sticky .main-header-wrap {
@@ -197,6 +199,11 @@ html.sticky .main-header-wrap {
     position: fixed;
     top: 0;
     z-index: 2342;
+}
+
+/* ofset for better scrolling  ask spralexx */
+html.sticky .start_simulate-wlan{
+    margin-top: 8%;
 }
 
 .logo {
@@ -223,11 +230,19 @@ html.sticky .logo {
     width: 200px;
     padding: 10px;
     margin-left: -90px
+    transition: 800ms width;
+    -moz-transition: 800ms width;
+    -webkit-transition: 800ms width;
+
+
 }
 
 html.sticky .logo a {
     background-position: 110px 0;
     overflow: hidden;
+        transition: background-position 800ms;
+    -moz-transition: background-position 800ms;
+    -webkit-transition: background-position 800ms;
 }
 
 .main-navigation {
@@ -276,7 +291,9 @@ html.sticky .logo a {
     background-color: #dc0067;
     position: relative;
     height: 400px;
+
 }
+
 
 .start_simulate-wlan canvas {
     opacity: 0.5;
