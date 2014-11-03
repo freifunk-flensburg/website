@@ -5,11 +5,16 @@ $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
-            console.log(this);
+            var scrollTopValue = 0;
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if($(this).attr('href') == '#start') {
+                scrollTopValue = 0;
+            } else {
+                scrollTopValue = target.offset().top - $('#main-header').height();
+            }
             if (target.length) {
                 $('html,body').animate({
-                    scrollTop: target.offset().top - 72
+                    scrollTop: scrollTopValue
                 }, 1000);
                 return false;
             }

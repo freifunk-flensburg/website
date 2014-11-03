@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
-    <head>
+    <head name="start">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Freifunk Flensburg</title>
@@ -36,7 +36,7 @@
             </header>
         </div>
         <main>
-            <section name="start">
+            <section>
                 <?php include('content/start.php'); ?>
             </section>
             <section name="about" class="section-standard">
