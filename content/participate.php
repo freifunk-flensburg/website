@@ -33,7 +33,7 @@
     <div class="participate_left">
     <div class="participate_content">
 
-            <?php include('firmware-downloader/firmware.php'); ?>
+            <?php // include('firmware-downloader/firmware.php'); ?>
         </div>
     </div>
         <div class="participate_right">

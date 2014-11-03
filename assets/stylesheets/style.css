@@ -206,16 +206,19 @@ html.sticky .main-header-wrap {
 }
 
 /* ofset for better scrolling  ask spralexx */
-html.sticky .start_simulate-wlan {
+/*html.sticky .start_simulate-wlan {
     transition: margin 1200ms;
     -moz-transition: margin 1200ms;
     -webkit-transition: margin 1200ms;
     margin-top: 8%;
-}
+}*/
 
 .logo {
     width: 256px;
     padding: 1em 0;
+    transition: width 500ms, padding 500ms;
+    -moz-transition: width 500ms, padding 500ms;
+    -webkit-transition: width 500ms, padding 500ms;
 }
 
 .logo a {
@@ -229,18 +232,18 @@ html.sticky .start_simulate-wlan {
 
 html.sticky .logo {
     width: 200px;
-    padding: 1em;
-    margin-left: -116px
+    padding: 0.25em 0;
+    margin-left: -120px
 }
 
 html.sticky .logo a {
-    background-position: 98px 0;
+    background-position: 120px 0;
     overflow: hidden;
 }
 
 .main-navigation {
     position: absolute;
-    right: 1em;
+    right: 2em;
     bottom: 0;
 }
 
