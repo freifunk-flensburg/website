@@ -70,8 +70,8 @@ $(document).ready(function() {
             iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconSize: [20, 22],
-            iconAnchor: [40, 22],
-            popupAnchor: [-10, -22]
+            iconAnchor: L.Point[40, 22],
+            popupAnchor: L.Point[-10, -22]
         });
 
         var map = L.map('map', {
