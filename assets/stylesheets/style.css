@@ -1,6 +1,7 @@
-/*
-    reset style
-*/
+/*  freifunk flensburg website stylesheets */  
+
+/*  reset css;
+    ========================================================================== */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,20 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style-position: inside;
 }
+
 blockquote, q {
     quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
     content: '';
     content: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -55,9 +61,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-/*
-    use border-box
-*/
+/*  use border box
+    ========================================================================== */
 
 *,
 *:before,
@@ -67,14 +72,13 @@ button::-moz-focus-inner {
     -mz-box-sizing: border-box;
 }
 
-/*
-    main style
-*/
+/*  main elements
+    ========================================================================== */
 
 html {
     font-size: 120%;
-    background: #ffffff;
-    color: #000000;
+    background: #ffffff; /* white */
+    color: #000000; /* black */
     font-family: 'Source Sans Pro', sans-serif;
 }
     
@@ -98,17 +102,8 @@ h4 {
     font-weight: 700;
 }
 
-.main-caption {
-    background-color: #ffb400; /*freifunk-gelb*/
-    color: #ffffff;
-    padding: 8px;
-    width: 25%;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-
 a {
-    color: #000000;
+    color: #000000; /* black */
 }
 
 address {
@@ -125,7 +120,7 @@ img {
 }
 
 p {
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 p:last-child {
@@ -133,23 +128,34 @@ p:last-child {
 }
 
 ::-moz-selection {
-    background: #dc0067;
-    color: #ffffff;
+    background: #dc0067; /* freifunk magenta */
+    color: #ffffff; /* white */
     text-shadow: none;
 }
 
 ::selection {
-    background: #dc0067;
-    color: #ffffff;
+    background: #dc0067; /* freifunk magenta */
+    color: #ffffff; /* white */
     text-shadow: none;
 }
 
+/*  helper
+    ========================================================================== */
+
+.main-caption {
+    background-color: #ffb400; /*freifunk-gelb*/
+    color: #ffffff; /* white */
+    padding: 8px;
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
 .section-standard {
-    padding: 60px 20px;
+    padding: 4em 2em;
     margin: 0 auto;
     max-width: 1200px;
 }
-
 
 .section-standard:after {
     content: '';
@@ -164,12 +170,12 @@ p:last-child {
 .section-image figcaption h2 {
     position: absolute;
     left: 0;
-    bottom: 30px;
+    bottom: 2em;
     text-align: center;
     width: 100%;
-    text-shadow: 0 0 30px #000;
+    text-shadow: 0 0 2em #000;
     font-size: 4em;
-    color: #ffffff;
+    color: #ffffff; /* white */
     text-transform: uppercase;
 }
 
@@ -177,34 +183,30 @@ p:last-child {
     width: 100%;
 }
 
-/*
-    header (logo + navigation)
-*/
+/*  header
+    ========================================================================== */
 
 .main-header-wrap {
-    background-color: #ffffff;
+    background-color: #ffffff; /* white */
     width: 100%;
-    
 }
 
 .main-header-wrap header {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 html.sticky .main-header-wrap {
-    border-bottom: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3; /* light grey */
     position: fixed;
     top: 0;
     z-index: 2342;
 }
 
 /* ofset for better scrolling  ask spralexx */
-html.sticky .start_simulate-wlan{
-    
-        transition: margin 1200ms;
+html.sticky .start_simulate-wlan {
+    transition: margin 1200ms;
     -moz-transition: margin 1200ms;
     -webkit-transition: margin 1200ms;
     margin-top: 8%;
@@ -212,7 +214,7 @@ html.sticky .start_simulate-wlan{
 
 .logo {
     width: 256px;
-    padding: 10px 0;
+    padding: 1em 0;
     transition: 800ms width;
     -moz-transition: 800ms width;
     -webkit-transition: 800ms width;
@@ -224,7 +226,7 @@ html.sticky .start_simulate-wlan{
 .logo a {
     display: block;
     text-indent: -9999px;
-    background: transparent url(../images/freifunk-flensburg.png) 0 0 no-repeat;
+    background: transparent url(../images/freifunk-flensburg.svg) 0 0 no-repeat;
     background-size: 100% auto;
     height: 0;
     padding-top: 31.25%;
@@ -232,26 +234,24 @@ html.sticky .start_simulate-wlan{
 
 html.sticky .logo {
     width: 200px;
-    padding: 10px;
+    padding: 1em;
     margin-left: -90px
     transition: 800ms width;
     -moz-transition: 800ms width;
     -webkit-transition: 800ms width;
-
-
 }
 
 html.sticky .logo a {
     background-position: 110px 0;
     overflow: hidden;
-        transition: background-position 800ms;
+    transition: background-position 800ms;
     -moz-transition: background-position 800ms;
     -webkit-transition: background-position 800ms;
 }
 
 .main-navigation {
     position: absolute;
-    right: 10px;
+    right: 1em;
     bottom: 0;
 }
 
@@ -266,7 +266,7 @@ html.sticky .logo a {
 .main-navigation ul li a {
     text-decoration: none;
     display: block;
-    padding: 10px;
+    padding: 1em;
 }
 
 .main-navigation ul li:last-child a {
@@ -277,7 +277,7 @@ html.sticky .logo a {
 
     .logo {
         width: 75px;
-        padding: 10px;
+        padding: 1em;
     }
 
     .main-navigation {
@@ -286,18 +286,15 @@ html.sticky .logo a {
 
 }
 
-/*
-    start section
-*/
+/*  start section
+    ========================================================================== */
 
 .start_simulate-wlan {
     clear: both;
-    background-color: #dc0067;
+    background-color: #dc0067; /* freifunk magenta */
     position: relative;
     height: 400px;
-
 }
-
 
 .start_simulate-wlan canvas {
     opacity: 0.5;
@@ -307,14 +304,14 @@ html.sticky .logo a {
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #ffffff; /* white */
     text-transform: uppercase;
     left: 0;
     top: 50%;
     font-size: 4em;
     line-height: 1;
     margin-top: -40px;
-    padding: 0 20px;
+    padding: 0 2em;
 }
 
 @media all and (max-width:1080px) {
@@ -334,23 +331,21 @@ html.sticky .logo a {
 
     .start_simulate-wlan figcaption h2 {
         position: static;
-        padding: 20px;
+        padding: 2em;
         font-size: 2em;
     }
 }
 
-/*
-    map section
-*/
+/*  map section
+    ========================================================================== */
 
 .find-us_map {
     height: 600px;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
 }
 
-/*
-    participate section
-*/
+/*  participate section
+    ========================================================================== */
 
 .participate_list-choose-customer {
     list-style: none;
@@ -359,7 +354,7 @@ html.sticky .logo a {
 .participate_list-choose-customer li {
     width: 33.33333%;
     float: left;
-    border-right: 2px solid #ffffff;
+    border-right: 2px solid #ffffff; /* white */
     cursor: pointer;
 }
 
@@ -368,10 +363,10 @@ html.sticky .logo a {
 }
 
 .participate_list-choose-customer li header {
-    background-color: #dc0067;
-    background-color: rgba(220, 0, 103, 0.7);
-    color: #ffffff;
-    padding: 40px 20px;
+    background-color: #dc0067; /* freifunk magenta */
+    background-color: rgba(220, 0, 103, 0.7); /* freifunk magenta */
+    color: #ffffff; /* white */
+    padding: 40px 2em;
 }
 
 .participate_list-choose-customer li.active header,
@@ -379,19 +374,18 @@ html.sticky .logo a {
     background-color: rgba(220, 0, 103, 1);
 }
 .participate_list-choose-customer li.active header h3{
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 .participate_list-choose-customer li.active:after {
     content: '';
     display: block;
-    margin-left: 20px;
+    margin-left: 2em;
     width: 0; 
     height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    
-    border-top: 20px solid #dc0067;
+    border-left: 2em solid transparent;
+    border-right: 2em solid transparent;
+    border-top: 2em solid #dc0067; /* freifunk magenta */
 }
 
 .participate_list-choose-customer:after {
@@ -401,11 +395,11 @@ text-decoration: underline;
 }
 
 .participate_show-customer {
-    border-bottom: 2px solid lightgrey;
-    border-left: 2px solid lightgrey;
-    border-right: 2px solid lightgrey;
-    padding: 40px 20px 20px 20px;
-    margin-top: -20px;
+    border-bottom: 2px solid #d3d3d3; /* light grey */
+    border-left: 2px solid #d3d3d3; /* light grey */
+    border-right: 2px solid #d3d3d3; /* light grey */
+    padding: 40px 2em 2em 2em;
+    margin-top: -2em;
     display: none;
 }
 
@@ -422,9 +416,9 @@ text-decoration: underline;
 .participate_content {
     border-width: 2px;
     border-style: solid;
-    border-color: lightgrey;
-    padding: 10px;
-    margin-bottom: 20px;
+    border-color: #d3d3d3; /* light grey */
+    padding: 1em;
+    margin-bottom: 2em;
 
 }
 .participate_content ul{
@@ -435,37 +429,37 @@ text-decoration: underline;
 .participate_left{
     float: left;
     width: 50%;
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 .participate_right{
     width: 50%;
-    padding-left: 10px;
+    padding-left: 1em;
     float: right;
 }
-/*
-    faq section
-*/
+
+/*  faq section
+    ========================================================================== */
 
 .faq_odd {
     float: left;
     width: 50%;
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 .faq_even {
     width: 50%;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 2em;
+    padding-left: 1em;
     float: right;
 }
 
 .faq_content {
     border-width: 2px;
     border-style: solid;
-    border-color: lightgrey;
-    padding: 10px;
-    margin-bottom: 20px;
+    border-color: #d3d3d3; /* light grey */
+    padding: 1em;
+    margin-bottom: 2em;
 }
 
 .faq_content:before {
@@ -475,14 +469,14 @@ text-decoration: underline;
     float: right;
     font-size: 8em;
     font-weight: bold;
-    color: #dc0067;
-    color: rgba(220, 0, 103, 0.5);
+    color: #dc0067; /* freifunk magenta */
+    color: rgba(220, 0, 103, 0.5); /* freifunk magenta */
 }
 
 .faq_content h4 {
     padding: 8px;
-    color: #ffffff;
-    background-color: #dc0067; /*freifunk-magenta*/
+    color: #ffffff; /* white */
+    background-color: #dc0067; /* freifunk magenta */
     display: inline-block;
 }
 
@@ -495,40 +489,40 @@ text-decoration: underline;
     }
 
     .faq_content {
-        margin-bottom: 20px;
+        margin-bottom: 2em;
     }
 }
 
-/*
-    contact-section
-*/
+/*  contact section
+    ========================================================================== */
+
 .contact_content{
     border-width: 2px;
     border-style: solid;
-    border-color: lightgrey;
-    padding: 10px;
+    border-color: #d3d3d3; /* light grey */
+    padding: 1em;
 }
 .contact_left{
     float: left;
     width: 50%;
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 .contact_right{
     width: 50%;
     float: right;
-    padding-left: 10px;
+    padding-left: 1em;
 }
 
-/*
-    about-section
-*/
+/*  about section
+    ========================================================================== */
+
 .about_main{
-    padding-top: 20px;
+    padding-top: 2em;
 }
 .about_main figure {
     width: 30%;
-    padding-left: 20px;
+    padding-left: 2em;
     float: right;
 }
 
@@ -538,13 +532,13 @@ text-decoration: underline;
     display: block;
 }
 
-/*
-    main footer
-*/
+/*  footer
+    ========================================================================== */
+
 .main-footer {
     clear: both;
-    padding: 20px;
-    background-color: lightgrey;
+    padding: 2em;
+    background-color: #d3d3d3; /* light grey */
 }
 
 .list-external-links {
@@ -560,22 +554,22 @@ text-decoration: underline;
     display: block;
     padding: 8px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff; /* white */
     font-weight: 700;
 }
 
 .list-external-links li a.facebook {
-    background-color: #47639e;
+    background-color: #47639e; /* facebook blue */
 }
 
 .list-external-links li a.twitter {
-    background-color: #32acd5;
+    background-color: #32acd5; /* twitter blue */
 }
 
 .list-external-links li a.nordlab {
-    background-color: #232323;
+    background-color: #232323; /* nordlab black */
 }
 
 .list-external-links li a.freifunk {
-    background-color: #dc0067;
+    background-color: #dc0067; /* freifunk magenta */
 }
