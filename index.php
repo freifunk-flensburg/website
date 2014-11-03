@@ -27,11 +27,11 @@
                 <nav class="main-navigation">
                     <ul>
                         <li><a href="#start">Start</a></li>
-                        <li><a href="#about">Über</a></li>
                         <li><a href="#find-us">Karte</a></li>
                         <li><a href="#participate">Mitmachen</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#contact">Kontakt</a></li>
+                        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Wiki</a></li>
                     </ul>
                 </nav>
             </header>
@@ -40,7 +40,7 @@
             <section>
                 <?php include('content/start.php'); ?>
             </section>
-            <section name="about" class="section-standard">
+            <section class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
             <figure class="section-image">
