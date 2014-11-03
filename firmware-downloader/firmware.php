@@ -59,7 +59,7 @@
             <a class="button" href="firmware-downloader/files/all_images.zip">Alle als ZIP herunterladen</a>
         </form>
         
-        <p class="firmware_p">Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License">GPL Lizenz</a>.</p><br>
+        <p class="firmware_p">Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License">GPL Lizenz</a>.</p>
         <p class="firmware_p">Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
         <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="assets/javascripts/main.js" type="text/javascript"></script>
