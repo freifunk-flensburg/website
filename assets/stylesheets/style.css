@@ -145,7 +145,7 @@ p:last-child {
 .main-caption {
     background-color: #ffb400; /*freifunk-gelb*/
     color: #ffffff; /* white */
-    padding: 8px;
+    padding: 0.5em;
     width: 25%;
     display: inline-block;
     margin-bottom: 1em;
@@ -170,10 +170,10 @@ p:last-child {
 .section-image figcaption h2 {
     position: absolute;
     left: 0;
-    bottom: 2em;
+    bottom: 0;
     text-align: center;
     width: 100%;
-    text-shadow: 0 0 2em #000;
+    text-shadow: 0 0 1em #000000; /* black */
     font-size: 4em;
     color: #ffffff; /* white */
     text-transform: uppercase;
@@ -285,7 +285,19 @@ html.sticky .logo a {
     clear: both;
     background-color: #dc0067; /* freifunk magenta */
     position: relative;
-    height: 400px;
+    height: 500px;
+}
+
+@media all and (max-height: 1000px) {
+    .start_simulate-wlan {
+        height: 400px;
+    }
+}
+
+@media all and (max-height: 800px) {
+    .start_simulate-wlan {
+        height: 300px;
+    }
 }
 
 .start_simulate-wlan canvas {
@@ -302,17 +314,17 @@ html.sticky .logo a {
     top: 50%;
     font-size: 4em;
     line-height: 1;
-    margin-top: -40px;
+    margin-top: -1em;
     padding: 0 2em;
 }
 
-@media all and (max-width:1080px) {
+@media all and (max-width: 1350px) {
     .start_simulate-wlan figcaption h2 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 }
 
-@media all and (max-width:600px) {
+@media all and (max-width: 760px) {
     .start_simulate-wlan {
         height: auto;
     }
@@ -466,7 +478,7 @@ html.sticky .logo a {
 }
 
 .faq_content h4 {
-    padding: 8px;
+    padding: 0.5em;
     color: #ffffff; /* white */
     background-color: #dc0067; /* freifunk magenta */
     display: inline-block;
@@ -544,7 +556,7 @@ html.sticky .logo a {
 
 .list-external-links li a {
     display: block;
-    padding: 8px;
+    padding: 0.5em;
     text-decoration: none;
     color: #ffffff; /* white */
     font-weight: 700;
