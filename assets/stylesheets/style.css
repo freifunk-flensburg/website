@@ -357,6 +357,9 @@ html.sticky .logo a {
 .participate_list-choose-customer li:hover header {
     background-color: rgba(220, 0, 103, 1);
 }
+.participate_list-choose-customer li.active header h3{
+text-decoration: underline;
+}
 
 .participate_list-choose-customer li.active:after {
     content: '';
