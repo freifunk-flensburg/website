@@ -398,6 +398,10 @@ html.sticky .logo a {
     border-color: lightgrey;
     padding: 10px;
     margin-bottom: 20px;
+
+}
+.participate_content ul{
+    list-style: none;
 }
 
 
