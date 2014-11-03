@@ -69,9 +69,9 @@ $(document).ready(function() {
         var myIcon = L.icon({
             iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
-            iconSize: [20, 22],
-            iconAnchor: L.Point[40, 22],
-            popupAnchor: L.Point[-10, -22]
+            iconSize: [30, 32],
+            iconAnchor: L.Point[30, 32],
+            popupAnchor: L.Point[-15, -32]
         });
 
         var map = L.map('map', {
