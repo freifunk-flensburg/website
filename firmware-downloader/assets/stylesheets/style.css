@@ -16,6 +16,13 @@
     text-transform: uppercase;
 }
 
+.firmware-downloader_top-img{
+    margin:1em;
+}
+.firmware_software-version{
+    margin-bottom: 1em;
+}
+
 .firmware_h2 {
     font-size: 1.5em;
 }

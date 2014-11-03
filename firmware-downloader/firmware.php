@@ -9,9 +9,9 @@
     </head>
     <body class="firmware_body">
         <header class="firmware_header">
-            <img src="firmware-downloader/assets/images/logo_freifunknet.png" alt="Freifunk Flensburg Firmware">
-            <h1>Freifunk Flensburg</h1>
-            <h2>Firmware <?php echo $versionNumber; ?> herunterladen</h2>
+            <img src="assets/images/freifunk-flensburg.png" alt="Freifunk Flensburg Firmware" class="firmware-downloader_top-img">
+
+            <h2 class="firmware_software-version">Firmware <?php echo $versionNumber; ?> herunterladen</h2>
         </header>
 
         <form class="download-form" id="download-form">
