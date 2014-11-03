@@ -448,7 +448,7 @@ html.sticky .logo a {
 .participate_download-form {
     width: 50%;
     float: left;
-    padding-right: 1em;
+    padding-right: 2em;
     border-right: 2px solid #d3d3d3;
 }
 
@@ -504,7 +504,7 @@ html.sticky .logo a {
 .participate_list-links {
     width: 50%;
     float: right;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 .participate_list-links ul {
@@ -577,14 +577,14 @@ html.sticky .logo a {
 .contact_left {
     float: left;
     width: 50%;
-    padding-right: 1em;
+    padding-right: 2em;
     border-right: 2px solid #d3d3d3; /* light grey */
 }
 
 .contact_right {
     width: 50%;
     float: right;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 /*  about section

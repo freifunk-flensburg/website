@@ -2,7 +2,7 @@
     <li data-show-customer="rookie" class="active">
         <header>
             <h3>Anfänger</h3>
-            <p>Du hast gerade erst von uns gehört und findest die Idee interessant?</p>
+            <p>Du hast gerade erst von uns gehört, findest die Idee interessant und möchtest mitmachen?</p>
         </header>
     </li>
     <li data-show-customer="member" class="member">
