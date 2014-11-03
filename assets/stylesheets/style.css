@@ -119,10 +119,12 @@ img {
     vertical-align: bottom;
 }
 
+ul,
 p {
     margin-bottom: 1em;
 }
 
+ul:last-child,
 p:last-child {
     margin-bottom: 0;
 }
@@ -398,16 +400,12 @@ html.sticky .logo a {
 
 .participate_list-choose-customer li header {
     background-color: #dc0067; /* freifunk magenta */
-    background-color: rgba(220, 0, 103, 0.7); /* freifunk magenta */
     color: #ffffff; /* white */
-    padding: 40px 2em;
+    padding: 2em;
 }
 
-.participate_list-choose-customer li.active header,
-.participate_list-choose-customer li:hover header {
-    background-color: rgba(220, 0, 103, 1);
-}
-.participate_list-choose-customer li.active header h3{
+.participate_list-choose-customer li:hover header h3,
+.participate_list-choose-customer li.active header h3 {
     text-decoration: underline;
 }
 
@@ -417,9 +415,9 @@ html.sticky .logo a {
     margin-left: 2em;
     width: 0; 
     height: 0; 
-    border-left: 2em solid transparent;
-    border-right: 2em solid transparent;
-    border-top: 2em solid #dc0067; /* freifunk magenta */
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-top: 1em solid #dc0067; /* freifunk magenta */
 }
 
 .participate_list-choose-customer:after {
@@ -447,29 +445,77 @@ html.sticky .logo a {
     display: block;
 }
 
-.participate_content {
-    border-width: 2px;
-    border-style: solid;
-    border-color: #d3d3d3; /* light grey */
-    padding: 1em;
-    margin-bottom: 2em;
-
+.participate_download-form {
+    width: 50%;
+    float: left;
+    padding-right: 1em;
+    border-right: 2px solid #d3d3d3;
 }
-.participate_content ul{
+
+.participate_download-form select,
+.participate_download-form input,
+.participate_download-form .button {
+    display: block;
+    padding: 0.5em 1em;
+    margin: 0 0 1em 0;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0;
+    background-color: #ffffff; /* white */
+    -webkit-appearance: none;
+    border: 2px solid #d3d3d3; /* light grey */
+}
+
+.participate_download-form .select-field {
+    position: relative;
+}
+
+.participate_download-form .select-field:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0.5em;
+    margin-top: -0.15em;
+    width: 0; 
+    height: 0; 
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid #d3d3d3; /* freifunk magenta */
+}
+
+.participate_download-form .button {
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff; /* white */
+    background-color: #dc0067; /* freifunk magenta */;
+    border-color: #dc0067; /* freifunk magenta */;
+    float: left;
+    margin-right: 1em;
+}
+
+.participate_download-form .button:hover {
+    background-color: #ffb400; /* freifunk yellow */
+    border-color: #ffb400; /* freifunk yellow */
+}
+
+.participate_list-links {
+    width: 50%;
+    float: right;
+    padding-left: 1em;
+}
+
+.participate_list-links ul {
     list-style: none;
 }
 
-
-.participate_left{
-    float: left;
-    width: 50%;
-    padding-right: 1em;
-}
-
-.participate_right{
-    width: 50%;
-    padding-left: 1em;
-    float: right;
+.participate_list-links ul li:before {
+    content: '- ';
+    display: inline;
 }
 
 /*  faq section
