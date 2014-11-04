@@ -93,6 +93,9 @@
                 <li>
                     <a href="http://freifunk.net/" class="freifunk" title="Freifunk Allgemein" target="_blank">freifunk.net</a>
                 </li>
+                <li>
+                    <a href="https://github.com/freifunk-flensburg" class="github" title="Unser Code">GitHub</a>
+                </li>
             </ul>
         </footer>
 

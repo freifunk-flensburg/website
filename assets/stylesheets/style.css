@@ -445,6 +445,7 @@ html.sticky .logo a {
     padding: 40px 2em 2em 2em;
     margin-top: -2em;
     display: none;
+
 }
 
 .participate_show-customer:after {
@@ -455,7 +456,11 @@ html.sticky .logo a {
 
 .participate_show-customer.active {
     display: block;
+
 }
+
+
+
 
 .participate_download-form {
     width: 50%;
@@ -654,6 +659,9 @@ html.sticky .logo a {
 
 .list-external-links li a.freifunk {
     background-color: #dc0067; /* freifunk magenta */
+}
+.list-external-links li a.github {
+    background-color: #829aa8;
 }
 
 /*  leaflet
