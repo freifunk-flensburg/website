@@ -394,6 +394,7 @@ html.sticky .logo a {
 
 .participate_list-choose-customer {
     list-style: none;
+    margin-bottom: 0;
 }
 
 .participate_list-choose-customer li {
@@ -424,6 +425,7 @@ html.sticky .logo a {
 }
 
 .participate_list-choose-customer li.active:after {
+    position: absolute;
     content: '';
     display: block;
     margin-left: 2em;
@@ -441,13 +443,10 @@ html.sticky .logo a {
 }
 
 .participate_show-customer {
-    border-bottom: 2px solid #d3d3d3; /* light grey */
-    border-left: 2px solid #d3d3d3; /* light grey */
-    border-right: 2px solid #d3d3d3; /* light grey */
-    padding: 40px 2em 2em 2em;
-    margin-top: -2em;
-    display: none;
-
+    max-height: 0;
+    padding: 0 2em;
+    overflow: hidden;
+    clear: both;
 }
 
 .participate_show-customer:after {
@@ -457,8 +456,15 @@ html.sticky .logo a {
 }
 
 .participate_show-customer.active {
-    display: block;
-
+    border-bottom: 2px solid #d3d3d3; /* light grey */
+    border-left: 2px solid #d3d3d3; /* light grey */
+    border-right: 2px solid #d3d3d3; /* light grey */
+    padding-top: 40px;
+    padding-bottom: 2em;
+    max-height: 2000px;
+    -webkit-transition: max-height 500ms ease-out;
+    -moz-transition: max-height 500ms ease-out;
+    transition: max-height 500ms ease-out;
 }
 
 
