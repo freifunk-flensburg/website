@@ -295,6 +295,10 @@ html.sticky .logo a {
     padding: 1em;
 }
 
+.main-navigation ul li a:hover {
+    text-decoration: underline;
+}
+
 .main-navigation ul li:last-child a {
     padding-right: 0;
 }

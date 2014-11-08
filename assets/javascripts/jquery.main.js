@@ -1,28 +1,4 @@
 /*
-    smooth scrolling
-*/
-$(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            var scrollTopValue = 0;
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if($(this).attr('href') == '#start') {
-                scrollTopValue = 0;
-            } else {
-                scrollTopValue = target.offset().top;
-            }
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: scrollTopValue
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
-
-/*
     init particle background
 */
 $(document).ready(function() {
@@ -163,6 +139,21 @@ $(document).ready(function() {
             window.location.href = 'media/firmware/'+type+'/'+router+fileExtension+'.bin';
         }
 
+        return false;
+    });
+});
+
+/*
+    smooth scrolling
+*/
+$(function() {
+    var $root = $('html, body');
+
+    $('a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+            scrollTop: $(href).offset().top
+        }, 500);
         return false;
     });
 });

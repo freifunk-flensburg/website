@@ -13,7 +13,7 @@
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/stylesheets/style.css">
     </head>
-    <body>
+    <body id="start">
         <!--[if lt IE 9]>
             <aside class="browse-happy">Du benutzt einen <strong>veralteten</strong> Webbrowser. Einige Funktionen dieser Webseite werden leider nicht funktionieren. Du kannst einen neuen <a target="_blank" href="http://browsehappy.com/">sicheren Webbrowser herunterladen</a>, um dein Erlebnis auf unserer und anderen Internetseiten zu verbessern.</p></aside>
         <![endif]-->
@@ -43,7 +43,7 @@
                 <?php include('content/about.php'); ?>
             </section>
             <figure class="section-image">
-                <img name="find-us" src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg" alt="Freifunk Flensburg - auch in deiner Nähe">
+                <img name="find-us" id="find-us" src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg" alt="Freifunk Flensburg - auch in deiner Nähe">
                 <figcaption>
                     <h2>Auch in deiner Nähe</h2>
                 </figcaption>
@@ -51,7 +51,7 @@
             <section class="section-standard">
                 <?php include('content/find-us.php'); ?>
             </section>
-            <figure name="participate" class="section-image">
+            <figure name="participate" id="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg" alt="Freifunk Flensburg - Router an der Hafenspitze">
                 <figcaption>
                     <h2>Mach mit, bewege Bytes</h2>
@@ -60,7 +60,7 @@
             <section class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
-            <figure name="faq" class="section-image">
+            <figure name="faq" id="faq" class="section-image">
                 <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg" alt="Freifunk Flensburg - Mit den richtigen Antworten">
                 <figcaption>
                     <h2>Wir haben Antworten</h2>
@@ -69,7 +69,7 @@
             <section class="section-standard">
                 <?php include('content/faq.php'); ?>
             </section>
-            <figure name="contact" class="section-image">
+            <figure name="contact" id="contact" class="section-image">
                 <img src="media/freifunk-flensburg-kontakte.jpg" alt="Basteln beim Freifunk Flensburg">
                 <figcaption>
                     <h2>Jede Menge Kontakt(e)</h2>
