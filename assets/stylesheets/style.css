@@ -119,11 +119,13 @@ img {
     vertical-align: bottom;
 }
 
+address,
 ul,
 p {
     margin-bottom: 1em;
 }
 
+address:last-child,
 ul:last-child,
 p:last-child {
     margin-bottom: 0;
