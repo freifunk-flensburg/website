@@ -1,8 +1,10 @@
 todo
 ====
 
-- Responsive Webdesign
-- Multibrowser
-- finish map
-- finish participation section
-- check and fix perfomance
+- Responsive navigation
+- Responsive images
+- Compress images
+- Minify and combine CSS
+- Minify and combine JavaScript
+- Finish participation section
+- Test more devices
