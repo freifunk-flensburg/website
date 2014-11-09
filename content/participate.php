@@ -22,10 +22,10 @@
     <article id="rookie" class="participate_show-customer active">
         <?php include('content/participate_customer.php'); ?>
     </article>
-    <article id="member" class="participate_show-customer">
+    <article id="member" class="participate_show-customer active">
         <?php include('content/participate_member.php'); ?>
     </article>
-    <article id="sponsor" class="participate_show-customer">
+    <article id="sponsor" class="participate_show-customer active">
         <?php include('content/participate_sponsor.php'); ?>
     </article>
 </section>

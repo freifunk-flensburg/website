@@ -99,6 +99,9 @@ $(document).ready(function() {
     var $chooseCustomerItems = $('#choose-customer li');
     var $showCustomerItems = $('#show-customer article');
 
+    $showCustomerItems.removeClass('active');
+    $('#show-customer article:first-child').addClass('active');
+
     $chooseCustomerItems.click(function() {
         $chooseCustomerItems.removeClass('active');
         $showCustomerItems.removeClass('active');

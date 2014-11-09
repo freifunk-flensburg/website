@@ -143,17 +143,23 @@ p:last-child {
     text-shadow: none;
 }
 
-/*  helper
-    ========================================================================== */
-
-.main-caption {
+.browse-happy,
+noscript {
     background-color: #ffb400; /*freifunk-gelb*/
     color: #ffffff; /* white */
-    padding: 0.5em;
-    width: 25%;
-    display: inline-block;
-    margin-bottom: 1em;
+    width: 100%;
+    padding: 2em;
+    display: block;
+    margin: 1em 0;
 }
+
+.browse-happy a,
+noscript a {
+    color: #ffffff; /* white */
+}
+
+/*  helper
+    ========================================================================== */
 
 .section-standard {
     padding: 4em 2em;
@@ -239,14 +245,6 @@ html.sticky .main-header-wrap {
     z-index: 2342;
 }
 
-/* ofset for better scrolling  ask spralexx */
-/*html.sticky .start_simulate-wlan {
-    transition: margin 1200ms;
-    -moz-transition: margin 1200ms;
-    -webkit-transition: margin 1200ms;
-    margin-top: 8%;
-}*/
-
 .logo {
     width: 256px;
     padding: 1em 0;
@@ -305,9 +303,22 @@ html.sticky .logo a {
 
 @media all and (max-width:800px) {
 
+    html.sticky .main-header-wrap,
+    .main-header-wrap {
+        border-bottom: 2px solid #d3d3d3; /* light grey */
+        position: static;
+        z-index: 2342;
+    }
+
     .logo {
-        width: 75px;
-        padding: 1em;
+        width: 200px;
+        padding: 0.25em 0;
+        margin-left: -120px
+    }
+
+    .logo a {
+        background-position: 120px 0;
+        overflow: hidden;
     }
 
     .main-navigation {
@@ -333,9 +344,11 @@ html.sticky .logo a {
 }
 
 @media all and (max-height: 800px) {
+
     .start_simulate-wlan {
         height: 300px;
     }
+
 }
 
 .start_simulate-wlan canvas {
@@ -364,12 +377,15 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 1350px) {
+
     .start_simulate-wlan figcaption h2 {
         font-size: 3.5em;
     }
+
 }
 
-@media all and (max-width: 760px) {
+@media all and (max-width: 800px) {
+
     .start_simulate-wlan {
         height: auto;
     }
@@ -378,11 +394,51 @@ html.sticky .logo a {
         display: none;
     }
 
+    .start_simulate-wlan figcaption {
+        position: static;
+    }
+
     .start_simulate-wlan figcaption h2 {
         position: static;
         padding: 2em;
         font-size: 2em;
     }
+
+}
+
+@media all and (max-width: 500px) {
+
+    .start_simulate-wlan figcaption h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+/*  about section
+    ========================================================================== */
+
+.about_main figure {
+    width: 30%;
+    padding-left: 2em;
+    float: right;
+}
+
+.about_main:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+@media all and (max-width: 800px) {
+
+    .about_main figure {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 2em;
+        float: none;
+        text-align: center;
+    }
+    
 }
 
 /*  map section
@@ -471,9 +527,6 @@ html.sticky .logo a {
     transition: max-height 500ms ease-out;
 }
 
-
-
-
 .participate_download-form {
     width: 50%;
     float: left;
@@ -543,6 +596,38 @@ html.sticky .logo a {
 .participate_list-links ul li:before {
     content: '- ';
     display: inline;
+}
+
+@media all and (max-width: 900px) {
+
+    .participate_list-choose-customer li header p {
+        display: none;
+    }
+
+    .participate_download-form {
+        width: 100%;
+        float: none;
+        padding-right: 0;
+        padding-bottom: 1em;
+        border-right: 0;
+    }
+
+    .participate_list-links {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+
+}
+
+@media all and (max-width: 700px) {
+
+    .participate_list-choose-customer li {
+        width: 100%;
+        float: none;
+        border: 0;
+    }
+
 }
 
 /*  faq section
@@ -616,19 +701,22 @@ html.sticky .logo a {
     padding-left: 2em;
 }
 
-/*  about section
-    ========================================================================== */
+@media all and (max-width: 800px) {
 
-.about_main figure {
-    width: 30%;
-    padding-left: 2em;
-    float: right;
-}
+    .contact_left {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 1em;
+    }
 
-.about_main:after {
-    content: '';
-    clear: both;
-    display: block;
+    .contact_right {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+
 }
 
 /*  footer
@@ -674,6 +762,29 @@ html.sticky .logo a {
 }
 .list-external-links li a.github {
     background-color: #829aa8;
+}
+
+@media all and (max-width: 800px) {
+
+    .list-external-links li {
+        display: block;
+        margin-bottom: 0.25em;
+    }
+
+    .list-external-links li:last-child {
+        margin-bottom: 0;
+    }
+
+    .list-external-links li a {
+        display: inline-block;
+    }
+
+}
+
+@media all and (max-width: 400px) {
+    .list-external-links li a {
+        display: block;
+    }
 }
 
 /*  leaflet
