@@ -6,5 +6,5 @@ todo
 - Compress images
 - Minify and combine CSS
 - Minify and combine JavaScript
-- Finish participation section
+- Finish participation section "Unterstützer" + same height
 - Test more devices
