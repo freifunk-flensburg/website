@@ -75,7 +75,7 @@ $(document).ready(function() {
 
         $.ajax({
             cache: false,
-            url: 'http://map.freifunk-flensburg.de/nodes.json',
+            url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
                 data.nodes.forEach(setNodeToMap);
