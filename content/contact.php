@@ -17,5 +17,5 @@
 		Twitter: <a target="_blank" href="https://twitter.com/FreiFunkFlens">@FreiFunkFlens</a><br>
 		IRC: <a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a>
 	</address>
-	<p>Besuche uns im <a href="https://kiwiirc.com/client/irc.lugfl.de/?nick=Website-Guest|?#freifunk-flensburg" target="_blank">Webchat</a>.</p>
+	<p>Besuche uns im <a href="https://kiwiirc.com/client/irc.lugfl.de:+6668/?nick=Website-Guest|?#freifunk-flensburg" target="_blank">Webchat</a>.</p>
 </div>
