@@ -73,18 +73,23 @@ $(document).ready(function() {
             }
         }
 
-        $.getJSON('test-nodes.json', function( data ) {
-            data.nodes.forEach(setNodeToMap);
-            
-            var countNodes = 0;
-            
-            for (var i = data.nodes.length - 1; i >= 0; i--) {
-                if(data.nodes[i].flags.online && data.nodes[i].name != '') {
-                    countNodes++;
-                }
-            };
+        $.ajax({
+            cache: false,
+            url: 'http://map.freifunk-flensburg.de/nodes.json',
+            dataType: 'json',
+            success: function(data) {
+                data.nodes.forEach(setNodeToMap);
+                
+                var countNodes = 0;
+                
+                for (var i = data.nodes.length - 1; i >= 0; i--) {
+                    if(data.nodes[i].flags.online && data.nodes[i].name != '') {
+                        countNodes++;
+                    }
+                };
 
-            $('#count-nodes').html(countNodes);
+                $('#count-nodes').html(countNodes);
+            }
         });
 
       }
