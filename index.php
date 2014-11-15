@@ -12,6 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="assets/stylesheets/style.css">
+        <link rel="icon" sizes="192x192" href="highres-favicon.png">
+        <meta name="theme-color" content="#dc0267">
         <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
     <body id="start">
