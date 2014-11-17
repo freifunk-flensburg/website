@@ -1,7 +1,7 @@
 <h4>Wir suchen Räumlichkeiten</h4>
 <p>Du vermietest Räumlichkeiten oder kennst jemand, der dies tut?<br>
 Momentan suchen wir günstige Räumlichkeiten für unsere regelmäßigen Treffen. Im besten Fall sollten sie zentral
-gelegen sein und nicht von anderen Genutzt werden, da wir einen Teil unserer Ausrüstung dort Lagern wollen. <br>
+gelegen sein und nicht von anderen genutzt werden, da wir einen Teil unserer Ausrüstung dort Lagern wollen. <br>
 Bitte kontaktiere uns, wenn du eine passende Location hast.<br></p>
 
 <h4>Spenden sind willkommen</h4>
