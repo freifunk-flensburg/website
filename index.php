@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="assets/stylesheets/style.css">
         <link rel="icon" sizes="192x192" href="highres-favicon.png">
         <meta name="theme-color" content="#ffffff">
+        <link rel="manifest" href="manifest.json">
         <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
     <body id="start">

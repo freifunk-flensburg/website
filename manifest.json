@@ -1,0 +1,15 @@
+{
+  "short_name": "Freifunk Flensburg",
+  "name": "Freifunk Flensburg",
+  "icons": [
+    {
+      "src": "highres-favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ],
+  "start_url": "index.php",
+  "display": "standalone",
+  "orientation": "portrait"
+}
