@@ -15,9 +15,9 @@ The map is generated from a file '*nodes.json*' in the root directory. This file
 
 ###Created by:
 
-- **@malteriechmann:** Code, Design, Mastermind
+- **@malteriechmann:** Code & Design
 - **@spralexx:** Code & Club Mate
-- **@roikiermedia:** Design, Graphics, Content, Bits of Code
+- **@roikiermedia:** Design, Graphics, Content & Bits of Code
  
 **additional commits by:**
 
