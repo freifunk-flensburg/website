@@ -1,12 +1,17 @@
 <div class="contact_left">
 	<h3>Offline</h3>
-	<p>Freifunk Flensburg ist ein Projekt des nordlab e.V.. Interessierte sind gerne eingeladen bei unseren Treffen am Montag bei Cowork Flensburg, Toosbüystraße 13, ab 18:00 Uhr vorbei zu schauen.</p>
+	<p>Freifunk Flensburg ist ein Projekt des nordlab e.V. und des Chaostreff Flensburg. Interessierte sind gerne eingeladen bei unseren Treffen am Montag beim Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen. Auch bei den OpenChaos Treffen im Chaostreff Flensburg, Toosbüystraße 13, könnt ihr euch über Freifunk informieren. Die nächsten Termine zum OpenChaos und zu Treffen zum Freifunk Flensburg findest du auf <a href="http://chaostreff-flensburg.de/">Chaostreff-Flensburg.de</a>.</p>
 	<address>
 		Telefon: <a href="tel:046157494595">0461 57494595</a>  <br>
 		Freifunk Flensburg <br>
 		c/o nordlab e.V. <br>
 		Rude 27 <br>
 		24941 Flensburg
+	</address>
+	<address>
+		Chaostreff Flensburg <br>
+		Toosbüystraße 13 <br>
+		24939 Flensburg
 	</address>
 </div>
 <div class="contact_right">
