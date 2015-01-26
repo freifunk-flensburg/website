@@ -1,0 +1,30 @@
+{
+  "name": "Freifunk Flensburg",
+  "url": "http://Freifunk-Flensburg.de",
+  "location": {
+    "city": "Flensburg",
+    "country": "Germany",
+    "lat": 54.788101,
+    "lon": 9.4320812
+  },
+  "contact": {
+    "email": "presse@Freifunk-Flensburg.de",
+    "facebook": "https://facebook.com/FreifunkFlensburg",
+    "twitter": "@FreiFunkFlens"
+  },
+  "state": {
+    "message": "Ein Projekt des nordlab e.V.",
+    "lastchange": "2014-06-25T15:47:05.707Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://map.Freifunk-Flensburg.de",
+      "technicalType": "ffmap",
+      "mapType": "structural"
+    }
+  ],
+  "techDetails": {
+    "routing": ""
+  },
+  "api": "0.3.0"
+}
