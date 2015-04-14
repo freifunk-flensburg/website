@@ -1,5 +1,5 @@
 <?php
 
-    $versionNumber = 'S-1.1';
+    $versionNumber = 'stable-2014.4.0-0';
 
 ?>
