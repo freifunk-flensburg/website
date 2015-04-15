@@ -18,10 +18,11 @@ The map is generated from a file '*nodes.json*' in the root directory. This file
 - **@malteriechmann:** Code & Design
 - **@spralexx:** Code & Club Mate
 - **@roikiermedia:** Design, Graphics, Content & Bits of Code
- 
+
 **additional commits by:**
 
 - **@do9xe:** Content
+- **@flemsound:** Content
 
 **Pictures (CC-BY-NC-SA) by:**
 
