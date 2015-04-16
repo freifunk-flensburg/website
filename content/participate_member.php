@@ -1,5 +1,5 @@
 <form class="participate_download-form" id="download-form">
-    <h3>Firmware (<?php echo $versionNumber; ?>)</h3>
+    <h3>Firmware-Download</h3>
     <label>Wähle eine Aktion aus</label>
     <div class="select-field">
         <select id="download-form-type">
