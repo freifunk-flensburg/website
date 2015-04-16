@@ -161,7 +161,7 @@ $(document).ready(function() {
             window.alert('Bitte wähle eine Router aus.');
         } else {
             cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
-            nordlabPrefix='gluon-fffl-stable-2014.4.0-0';
+            nordlabPrefix='gluon-fffl-stable-S-1.1';
             if(community == 'cffl') {
                 window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
             }
