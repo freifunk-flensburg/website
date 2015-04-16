@@ -159,15 +159,21 @@ $(document).ready(function() {
 
         if(router === '-1') {
             window.alert('Bitte wähle eine Router aus.');
-        } else {
-            cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
-            nordlabPrefix='gluon-fffl-S-1.1';
-            if(community == 'cffl') {
-                window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
-            }
-            else {
-                window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
-            }
+         } 
+         else{
+                if(community=='notset'){
+                    window.alert('Bitte gib eine Comunity an');
+                }
+                else {
+                    cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
+                    nordlabPrefix='gluon-fffl-S-1.1';
+                    if(community == 'cffl') {
+                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
+                    }
+                    else {
+                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
+                    }
+                }
         }
 
         return false;
