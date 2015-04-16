@@ -125,7 +125,9 @@ $(document).ready(function() {
 
         var type = '',
             fileExtension = '',
-            router;
+            router,
+            community = '';
+
 
         switch ($('#download-form-type').val()) {
             case '0':
@@ -139,12 +141,33 @@ $(document).ready(function() {
                 type = 'factory';
         }
 
+        switch ($('#download_form_choose_comunity').val()) {
+            case '0':
+                community = 'notset';
+                break;
+            case '1':
+                community = 'cffl';
+                break;
+            case '2':
+                community = 'nordlab';
+                break;
+            default:
+                community = 'nichtgesetzt';
+        }
+
         router = $('#download-form-router').val();
 
         if(router === '-1') {
             window.alert('Bitte wähle eine Router aus.');
         } else {
-            window.location.href = 'media/firmware/'+type+'/'+router+fileExtension+'.bin';
+            cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
+            nordlabPrefix='gluon-fffl-stable-2014.4.0-0';
+            if(community == 'cffl') {
+                window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
+            }
+            else {
+                window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
+            }
         }
 
         return false;
