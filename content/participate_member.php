@@ -11,8 +11,8 @@
     <div class="select-field">
         <select id="download_form_choose_comunity">
             <option value="0">Bitte auswählen</option>
-            <option value="1">cffl</option>
-            <option value="2">nordlab</option>
+            <option value="1">Chaostreff Flensburg</option>
+            <option value="2">nordlab e.V.</option>
             </select>
     </div>
     <label>Wähle einen Router aus</label>
