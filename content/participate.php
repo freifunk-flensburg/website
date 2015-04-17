@@ -8,13 +8,13 @@
     <li data-show-customer="member" class="member">
         <header>
             <h3>Freifunker</h3>
-            <p>Du bist schon länger dabei und bist auf der Suche nach passenden Informationen?</p>
+            <p>Du bist schon länger dabei und suchst nach Informationen oder der Firmware?</p>
         </header>
     </li>
     <li data-show-customer="sponsor" class="sponsor">
         <header>
             <h3>Unterstützer</h3>
-            <p>Du findest das Projekt unterstützenswert und kannst finanziell etwas beitragen?</p>
+            <p>Du findest das Projekt unterstützenswert und möchtest uns helfen?</p>
         </header>
     </li>
 </ul>

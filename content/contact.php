@@ -1,10 +1,9 @@
 <div class="contact_left">
 	<h3>Offline</h3>
-	<p>Freifunk Flensburg ist ein Projekt des nordlab e.V. und des Chaostreff Flensburg. Interessierte sind gerne eingeladen bei unseren Treffen am Montag beim Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen. Auch bei den OpenLab Treffen, Dienstags ab 17.30 Uhr im Chaostreff Flensburg, Toosbüystraße 13, könnt ihr euch über Freifunk informieren. Die nächsten Termine zum OpenLab und zu Treffen zum Freifunk Flensburg findest du auf <a href="http://chaostreff-flensburg.de/">Chaostreff-Flensburg.de</a>.</p>
+	<p>Freifunk Flensburg ist ein Projekt des nordlab e.V. und des Chaostreff Flensburg. Interessierte sind gerne eingeladen bei den Treffen des nordlab e.V. Montags im Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen. <br>Auch bei den OpenLab Treffen, Dienstags ab 17.30 Uhr im Chaostreff Flensburg, Toosbüystraße 13, könnt ihr euch über Freifunk informieren.</p>
 	<address>
 		Telefon: <a href="tel:046157494595">0461 57494595</a>  <br>
-		Freifunk Flensburg <br>
-		c/o nordlab e.V. <br>
+		nordlab e.V. <br>
 		Rude 27 <br>
 		24941 Flensburg
 	</address>
@@ -23,4 +22,5 @@
 		IRC: <a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a>
 	</address>
 	<p>Besuche uns im <a href="https://kiwiirc.com/client/irc.lugfl.de:+6668/?nick=Website-Guest|?#freifunk-flensburg" target="_blank">Webchat</a>.</p>
+	<p>Videos von uns findest du auch auf unserem <a href="https://www.youtube.com/channel/UCWX6f-3kFLJkuPwWvnZX3fA/" target="blank">YouTube-Kanal</a>.</p>
 </div>

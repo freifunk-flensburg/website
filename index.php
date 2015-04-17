@@ -1,4 +1,4 @@
-<?php include('config.php') ?>
+<?php?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
@@ -86,10 +86,10 @@
         <footer class="main-footer">
             <ul class="list-external-links">
                 <li>
-                    <a href="https://www.facebook.com/FreifunkFlensburg" title="Erfahre mer über uns bei Facebook" class="facebook" target="_blank">Facebook</a>
+                    <a href="https://www.facebook.com/FreifunkFlensburg" title="Erfahre mehr über uns bei Facebook." class="facebook" target="_blank">Facebook</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/FreiFunkFlens" title="Erfahre mer über uns bei Twitter" class="twitter" target="_blank">Twitter</a>
+                    <a href="https://twitter.com/FreiFunkFlens" title="Erfahre mehr über uns bei Twitter." class="twitter" target="_blank">Twitter</a>
                 </li>
                 <li>
                     <a href="http://nordlab-ev.de" class="nordlab" title="Wir gehören zum nordlab e.V." target="_blank">nordlab e.V.</a>
@@ -98,10 +98,10 @@
                   <a href="http://chaostreff-flensburg.de/" class="nordlab" title="Wir gehören zum Chaostreff Flensburg." target="_blank">Chaostreff Flensburg</a>
                 </li>
                 <li>
-                    <a href="http://freifunk.net/" class="freifunk" title="Freifunk Allgemein" target="_blank">freifunk.net</a>
+                    <a href="http://freifunk.net/" class="freifunk" title="Die Webseite der Freifunk-Initiative" target="_blank">freifunk.net</a>
                 </li>
                 <li>
-                    <a href="https://github.com/freifunk-flensburg" class="github" title="Unser Code">GitHub</a>
+                    <a href="https://github.com/freifunk-flensburg" class="github" title="Unser Code im Netz, zum Nachschlagen und Mitarbeiten.">GitHub</a>
                 </li>
             </ul>
         </footer>

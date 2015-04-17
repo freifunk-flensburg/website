@@ -1,13 +1,13 @@
 <form class="participate_download-form" id="download-form">
     <h3>Firmware-Download</h3>
-    <label>Wähle eine Aktion aus</label>
+    <label>Wähle eine Aktion aus:</label>
     <div class="select-field">
         <select id="download-form-type">
-            <option value="0">Freifunk Firmware neuinstallieren</option>
+            <option value="0">Freifunk Firmware neu installieren</option>
             <option value="1">Freifunk Firmware updaten</option>
         </select>
     </div>
-    <label>Wähle eine Community</label>
+    <label>Wähle eine Community:</label>
     <div class="select-field">
         <select id="download_form_choose_comunity">
             <option value="0">Bitte auswählen</option>
@@ -15,7 +15,7 @@
             <option value="2">nordlab e.V.</option>
             </select>
     </div>
-    <label>Wähle einen Router aus</label>
+    <label>Wähle einen Router aus:</label>
     <div class="select-field">
         <select id="download-form-router">
             <option value="-1">Bitte wähle einen Router aus</option>
@@ -69,16 +69,17 @@
     <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
-    <h2>Freifunk Flensburg Links</h2>
+    <h2>Links zu Freifunk Flensburg</h2>
     <ul>
-        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Unser Wiki</a></li>
-        <li><a target="_blank" href="https://github.com/freifunk-flensburg">Github</a></li>
-        <li><a target="_blank" href="http://map.freifunk-flensburg.de">Unsere Mesh-Map</a></li>
+        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Flensburg Wiki</a> - Unser gesammeltes Wissen</li>
+        <li><a target="_blank" href="https://github.com/freifunk-flensburg">GitHub</a> - Unser Code zum Mitbasteln</li>
+        <li><a target="_blank" href="http://map.freifunk-flensburg.de">Die Mesh-Map</a> - Unsere detailierte Knotenkarte</li>
         <li><a target="_blank" href="http://nordlab-ev.de">nordlab e.V.</a></li>
+        <li><a target="_blank" href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a></li>
     </ul>
     <h2>Allgemeine Freifunk Links</h2>
     <ul>
         <li><a target="_blank" href="http://freifunk.net/">freifunk.net</a></li>
-        <li><a target="_blank" href="http://wiki.freifunk.net/">Wiki</a></li>
+        <li><a target="_blank" href="http://wiki.freifunk.net/">Das Freifunk-Wiki</a></li>
     </ul>
 </aside>

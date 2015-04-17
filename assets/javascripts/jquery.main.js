@@ -21,14 +21,14 @@ $(document).ready(function() {
 */
 $(document).ready(function() {
     var stickyTop = $('#main-header').offset().top;
-    
+
     var stickyNav = function(){
         var scrollTop = $(window).scrollTop();
-             
-        if (scrollTop > stickyTop) { 
+
+        if (scrollTop > stickyTop) {
             $('html').addClass('sticky');
         } else {
-            $('html').removeClass('sticky'); 
+            $('html').removeClass('sticky');
         }
     };
 
@@ -66,7 +66,7 @@ $(document).ready(function() {
         L.tileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
-        
+
         var setNodeToMap = function(node) {
             if(node.geo && node.flags.online) {
                 L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
@@ -79,9 +79,9 @@ $(document).ready(function() {
             dataType: 'json',
             success: function(data) {
                 data.nodes.forEach(setNodeToMap);
-                
+
                 var countNodes = 0;
-                
+
                 for (var i = data.nodes.length - 1; i >= 0; i--) {
                     if(data.nodes[i].flags.online && data.nodes[i].name != '') {
                         countNodes++;
@@ -97,7 +97,7 @@ $(document).ready(function() {
 
 });
 
-/* 
+/*
     choose customer
 */
 $(document).ready(function() {
@@ -110,13 +110,13 @@ $(document).ready(function() {
     $chooseCustomerItems.click(function() {
         $chooseCustomerItems.removeClass('active');
         $showCustomerItems.removeClass('active');
-        
+
         $(this).addClass('active');
         $('#'+$(this).data('show-customer')).addClass('active');
     });
 });
 
-/* 
+/*
     firmware download
 */
 $(document).ready(function() {
@@ -158,11 +158,11 @@ $(document).ready(function() {
         router = $('#download-form-router').val();
 
         if(router === '-1') {
-            window.alert('Bitte wähle eine Router aus.');
-         } 
+            window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
+         }
          else{
                 if(community=='notset'){
-                    window.alert('Bitte gib eine Comunity an');
+                    window.alert('Bitte gib eine Comunity an.');
                 }
                 else {
                     cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
