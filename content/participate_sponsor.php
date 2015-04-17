@@ -18,5 +18,5 @@ Dann erzähl doch deinen Freunden, Nachbarn und Verwandten von unserem Projekt. 
 deinem eigenen Knoten wie es funktioniert. Für Diejenigen die es ganz genau wissen wollen, kannst du dir hier unseren
 <a href="/media/FreifunkFlyer_A4_noFont.pdf">ausführlichen Flyer</a> herunterladen. <br>
 Wir haben auch <a href="https://twitter.com/roikiermedia/status/521957080551653376">Sticker</a> für dich, um deinen Router, Laptops oder sonstige Geräte zu verschönern.
-Solltest du <a href="https://twitter.com/roikiermedia/status/521957080551653376">große Sticker</a> für deine Scheiben haben wollen, um deine Kunden, Nachbarn und Freunde darauf hinzuweisen das es Freifunk bei dir gibt,
+Solltest du <a href="https://twitter.com/FreiFunkFlens/status/537269168736063488">große Sticker</a> für deine Scheiben haben wollen, um deine Kunden, Nachbarn und Freunde darauf hinzuweisen das es Freifunk bei dir gibt,
 schicke eine Mail an <a target="_blank" href="mailto:presse@freifunk-flensburg.de">presse@freifunk-flensburg.de</a>.</p>
