@@ -120,6 +120,23 @@ $(document).ready(function() {
     firmware download
 */
 $(document).ready(function() {
+
+    $('#download_form_choose_community').on('change', function() {
+
+        $('.participate_list-firmware-information').fadeOut();
+
+        switch ($(this).val()) {
+            case '1':
+                $('#chaostreff-firmware-information').fadeIn();
+                break;
+            case '2':
+                $('#nordlab-firmware-information').fadeIn();
+                break;
+            default:
+                break;
+        }
+    });
+
     $('#download-form').submit(function( event ) {
         event.preventDefault();
 
@@ -139,9 +156,10 @@ $(document).ready(function() {
                 break;
             default:
                 type = 'factory';
+                break;
         }
 
-        switch ($('#download_form_choose_comunity').val()) {
+        switch ($('#download_form_choose_community').val()) {
             case '0':
                 community = 'notset';
                 break;
@@ -153,6 +171,7 @@ $(document).ready(function() {
                 break;
             default:
                 community = 'nichtgesetzt';
+                break;
         }
 
         router = $('#download-form-router').val();

@@ -9,11 +9,11 @@
     </div>
     <label>Wähle eine Community:</label>
     <div class="select-field">
-        <select id="download_form_choose_comunity">
+        <select id="download_form_choose_community">
             <option value="0">Bitte auswählen</option>
             <option value="1">Chaostreff Flensburg</option>
             <option value="2">nordlab e.V.</option>
-            </select>
+        </select>
     </div>
     <label>Wähle einen Router aus:</label>
     <div class="select-field">
@@ -69,6 +69,14 @@
     <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
+    <div id="chaostreff-firmware-information" class="participate_list-firmware-information">
+        <h2>Chaostreff Flensburg Firmware</h2>
+        <p>Du hast die Firmware des Chaostreff Flensburg e.V. zum Download ausgewählt. Diese Firmware wird vom Chaostreff Flensburg betreut und stützt sich ausschließlich auf vereinseigene Infrastruktur.</p>
+    </div>
+    <div id="nordlab-firmware-information" class="participate_list-firmware-information">
+        <h2>nordlab Firmware</h2>
+        <p>Lorem ipsum.</p>
+    </div>
     <h2>Links zu Freifunk Flensburg</h2>
     <ul>
         <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Flensburg Wiki</a> - Unser gesammeltes Wissen</li>

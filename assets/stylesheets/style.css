@@ -604,6 +604,11 @@ html.sticky .logo a {
     padding-left: 2em;
 }
 
+.participate_list-firmware-information {
+    display: none;
+    margin-bottom: 1em;
+}
+
 .participate_list-links ul {
     list-style: none;
 }
