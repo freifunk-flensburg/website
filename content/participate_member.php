@@ -71,11 +71,11 @@
 <aside class="participate_list-links">
     <div id="chaostreff-firmware-information" class="participate_list-firmware-information">
         <h2>Chaostreff Flensburg Firmware</h2>
-        <p>Du hast die Firmware des Chaostreff Flensburg e.V. zum Download ausgewählt. Diese Firmware wird vom Chaostreff Flensburg betreut und stützt sich ausschließlich auf vereinseigene Infrastruktur.</p>
+        <p>Du hast die Firmware des Chaostreff Flensburg ausgewählt. Diese Firmware wird vom Chaostreff Flensburg betreut und stützt sich ausschließlich auf vereinseigene Infrastruktur. Sie ist im Mesh-Netzwerk mit anderen Firmwares kompatibel. Mehr Informationen findest du auf <a href="http://chaostreff-flensburg.de" targe="_blank">Chaostreff-Flensburg.de</a>.</p>
     </div>
     <div id="nordlab-firmware-information" class="participate_list-firmware-information">
-        <h2>nordlab Firmware</h2>
-        <p>Lorem ipsum.</p>
+        <h2>nordlab e.V. Firmware</h2>
+        <p>Du hast die Firmware des nordlab e.V. ausgewählt. Diese Firmware wird vom nordlab e.V. betreut. Sämtliche Gateways und dienstbezogene Server werden verwendet. Sie ist im Mesh-Netzwerk mit anderen Firmwares kompatibel. Mehr Informationen findest du auf <a href="http://nordlab-ev.de/" target="_blank">nordlab-eV.de<a/>.</p>
     </div>
     <h2>Links zu Freifunk Flensburg</h2>
     <ul>
