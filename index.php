@@ -95,9 +95,6 @@
                     <a href="http://nordlab-ev.de" class="nordlab" title="Wir gehören zum nordlab e.V." target="_blank">nordlab e.V.</a>
                 </li>
                 <li>
-                  <a href="http://chaostreff-flensburg.de/" class="nordlab" title="Wir gehören zum Chaostreff Flensburg." target="_blank">Chaostreff Flensburg</a>
-                </li>
-                <li>
                     <a href="http://freifunk.net/" class="freifunk" title="Die Webseite der Freifunk-Initiative" target="_blank">freifunk.net</a>
                 </li>
                 <li>
