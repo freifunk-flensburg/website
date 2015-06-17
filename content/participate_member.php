@@ -9,11 +9,10 @@
     </div>
     <label>Wähle eine Community:</label>
     <div class="select-field">
-        <select id="download_form_choose_community">
+        <select id="download_form_choose_comunity">
             <option value="0">Bitte auswählen</option>
-            <option value="1">Chaostreff Flensburg</option>
-            <option value="2">nordlab e.V.</option>
-        </select>
+            <option value="1">Offizielle Community Firmware</option>
+            </select>
     </div>
     <label>Wähle einen Router aus:</label>
     <div class="select-field">
@@ -69,21 +68,12 @@
     <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
-    <div id="chaostreff-firmware-information" class="participate_list-firmware-information">
-        <h2>Chaostreff Flensburg Firmware</h2>
-        <p>Du hast die Firmware des Chaostreff Flensburg ausgewählt. Diese Firmware wird vom Chaostreff Flensburg betreut und stützt sich ausschließlich auf vereinseigene Infrastruktur. Sie ist im Mesh-Netzwerk mit anderen Firmwares kompatibel. Mehr Informationen findest du auf <a href="http://chaostreff-flensburg.de" targe="_blank">Chaostreff-Flensburg.de</a>.</p>
-    </div>
-    <div id="nordlab-firmware-information" class="participate_list-firmware-information">
-        <h2>nordlab e.V. Firmware</h2>
-        <p>Du hast die Firmware des nordlab e.V. ausgewählt. Diese Firmware wird vom nordlab e.V. betreut. Sämtliche Gateways und dienstbezogene Server werden verwendet. Sie ist im Mesh-Netzwerk mit anderen Firmwares kompatibel. Mehr Informationen findest du auf <a href="http://nordlab-ev.de/" target="_blank">nordlab-eV.de<a/>.</p>
-    </div>
     <h2>Links zu Freifunk Flensburg</h2>
     <ul>
         <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Flensburg Wiki</a> - Unser gesammeltes Wissen</li>
         <li><a target="_blank" href="https://github.com/freifunk-flensburg">GitHub</a> - Unser Code zum Mitbasteln</li>
         <li><a target="_blank" href="http://map.freifunk-flensburg.de">Die Mesh-Map</a> - Unsere detailierte Knotenkarte</li>
         <li><a target="_blank" href="http://nordlab-ev.de">nordlab e.V.</a></li>
-        <li><a target="_blank" href="http://chaostreff-flensburg.de">Chaostreff Flensburg</a></li>
     </ul>
     <h2>Allgemeine Freifunk Links</h2>
     <ul>
