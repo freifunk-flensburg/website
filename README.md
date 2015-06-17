@@ -29,5 +29,3 @@ The map is generated from a file '*nodes.json*' in the root directory. This file
 - **@wlanfr3ak**
 - **@roikiermedia**
 
----
-*Freifunk Flensburg is a project by the nordlab e.V. and Chaostreff-Flensburg*
