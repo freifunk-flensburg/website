@@ -1,30 +1,75 @@
 {
   "name": "Freifunk Flensburg",
-  "url": "http://Freifunk-Flensburg.de",
+  "url": "http://freifunk-flensburg.de",
   "location": {
     "city": "Flensburg",
-    "country": "Germany",
+    "country": "DE",
     "lat": 54.788101,
-    "lon": 9.4320812
+    "lon": 9.4320812,
+    "address": {
+      "Name": "Offener Kanal Flensburg",
+      "Street": "St. Juergen Str. 95",
+      "Zipcode": "24937"
+    }
   },
   "contact": {
-    "email": "presse@Freifunk-Flensburg.de",
+    "email": "presse@freifunk-flensburg.de",
+    "irc": "irc://irc.lugfl.de#freifunk-flensburg",
+    "ml": "https://ml06.ispgateway.de/mailman/listinfo/liste_freifunk-flensburg.de",
     "facebook": "https://facebook.com/FreifunkFlensburg",
     "twitter": "@FreiFunkFlens"
   },
-  "state": {
-    "message": "Ein Projekt des nordlab e.V.",
-    "lastchange": "2014-06-25T15:47:05.707Z"
-  },
   "nodeMaps": [
     {
-      "url": "http://map.Freifunk-Flensburg.de",
+      "url": "http://map.freifunk-flensburg.de",
+      "interval": "1min",
       "technicalType": "ffmap",
-      "mapType": "structural"
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://map.freifunk-flensburg.de/data/nodelist.json",
+      "interval": "1min",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
   ],
-  "techDetails": {
-    "routing": ""
+  "support": {
+    "club": {
+      "name": "NordLab e.V.",
+      "street": "Rude 27",
+      "zip": "24941",
+      "city": "Flensburg",
+      "url": "http://nordlab-ev.de",
+      "email": "vorstand@nordlab-ev.de"
+    }
   },
-  "api": "0.3.0"
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://freifunk-flensburg.de"
+    },
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.129.0.0/24"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "nothing",
+      "vpnnational"
+    ]
+  },
+  "state": {
+    "lastchange": "2015-05-26T19:42:45.062Z",
+    "focus": []
+  },
+  "api": "0.4.8"
 }
