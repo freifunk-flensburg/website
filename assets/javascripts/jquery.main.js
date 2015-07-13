@@ -148,11 +148,8 @@ $(document).ready(function() {
             case '1':
                 community = 'nordlab';
                 break;
-            case '2':
-                community = 'cffl';
-                break;
             default:
-                community = 'nichtgesetzt';
+                community = 'notset';
         }
 
         router = $('#download-form-router').val();
@@ -165,14 +162,8 @@ $(document).ready(function() {
                     window.alert('Bitte gib eine Comunity an.');
                 }
                 else {
-                    cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
-                    nordlabPrefix='gluon-fffl-S-1.1';
-                    if(community == 'cffl') {
-                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
-                    }
-                    else {
-                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
-                    }
+                    prefix='gluon-fffl-S-1.1';
+                    window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
                 }
         }
 
