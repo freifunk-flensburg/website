@@ -23,7 +23,6 @@ $(document).ready(function() {
     get json data for map
 */
 $(document).ready(function() {
-
     $.ajax({
       url: 'assets/javascripts/leaflet-0.7.3/leaflet.js',
       dataType: 'script',
@@ -34,8 +33,8 @@ $(document).ready(function() {
             iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconSize: [30, 32],
-            iconAnchor: L.Point[30, 32],
-            popupAnchor: L.Point[-15, -32]
+            iconAnchor: L.Point(30, 32),
+            popupAnchor: L.Point(-15, -32)
         });
 
         var map = L.map('map', {
@@ -53,7 +52,7 @@ $(document).ready(function() {
             if(node.geo && node.flags.online) {
                 L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
             }
-        }
+        };
 
         $.ajax({
             cache: false,
@@ -65,10 +64,10 @@ $(document).ready(function() {
                 var countNodes = 0;
 
                 for (var i = data.nodes.length - 1; i >= 0; i--) {
-                    if(data.nodes[i].flags.online && data.nodes[i].name != '') {
+                    if(data.nodes[i].flags.online && data.nodes[i].name !== '') {
                         countNodes++;
                     }
-                };
+                }
 
                 $('#count-nodes').html(countNodes);
             }
