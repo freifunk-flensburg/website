@@ -158,12 +158,12 @@ $(document).ready(function() {
             window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
          }
          else{
-                if(community=='notset'){
+                if(community == 'notset'){
                     window.alert('Bitte gib eine Comunity an.');
                 }
                 else {
-                    prefix='gluon-fffl-S-1.1';
-                    window.location.href = 'media/firmware/'+community+'/'+type+'/'+prefix+router+fileExtension+'.bin';
+                    prefix = 'gluon-fffl-S-1.1';
+                    window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
                 }
         }
 
