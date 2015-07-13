@@ -163,7 +163,7 @@ $(document).ready(function() {
                 }
                 else {
                     prefix='gluon-fffl-S-1.1';
-                    window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
+                    window.location.href = 'media/firmware/'+community+'/'+type+'/'+prefix+router+fileExtension+'.bin';
                 }
         }
 
