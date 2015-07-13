@@ -1,22 +1,4 @@
 /*
-    init particle background
-*/
-$(document).ready(function() {
-    $('#start_simulate-wlan').particleground({
-        minSpeedX: 0.1,
-        maxSpeedX: 0.1,
-        minSpeedY: 0.1,
-        maxSpeedY: 0.1,
-        dotColor: '#ffffff',
-        lineColor: '#ffffff',
-        particleRadius: 10,
-        lineWidth: 1,
-        proximity: 100,
-        parallaxMultiplier: 20
-    });
-});
-
-/*
     sticky navigation
 */
 $(document).ready(function() {
