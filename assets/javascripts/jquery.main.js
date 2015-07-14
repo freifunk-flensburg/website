@@ -28,7 +28,6 @@ $(document).ready(function() {
       dataType: 'script',
       cache: true,
       success: function() {
-
         var myIcon = L.icon({
             iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
@@ -49,8 +48,8 @@ $(document).ready(function() {
         }).addTo(map);
 
         var setNodeToMap = function(node) {
-            if(node.geo && node.flags.online) {
-                L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
+            if(node.nodeinfo.location && node.flags.online) {
+                L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
             }
         };
 
@@ -59,12 +58,12 @@ $(document).ready(function() {
             url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
-                data.nodes.forEach(setNodeToMap);
-
                 var countNodes = 0;
 
-                for (var i = data.nodes.length - 1; i >= 0; i--) {
-                    if(data.nodes[i].flags.online && data.nodes[i].name !== '') {
+                for (var node in data.nodes) {
+                    setNodeToMap(data.nodes[node]);
+
+                    if (data.nodes[node].flags.online && data.nodes[node].nodeinfo.hostname !== '') {
                         countNodes++;
                     }
                 }
