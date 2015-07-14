@@ -49,7 +49,7 @@ $(document).ready(function() {
 
         var setNodeToMap = function(node) {
             if(node.nodeinfo.location && node.flags.online) {
-                L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
+                L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {icon: myIcon}).addTo(map).bindPopup('<h3>' + node.nodeinfo.hostname + '</h3>');
             }
         };
 
