@@ -142,7 +142,7 @@ $(document).ready(function() {
                     window.alert('Bitte gib eine Comunity an.');
                 }
                 else {
-                    prefix = 'gluon-fffl-S-1.1';
+                    prefix = 'gluon-fffl-stable-2014.4.0-0';
                     window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
                 }
         }
