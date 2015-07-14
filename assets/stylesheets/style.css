@@ -378,6 +378,7 @@ html.sticky .logo a {
 }
 
 .start_simulate-wlan figcaption h2 {
+    background-image: url(../images/ff_meshwebsite.svg);
     display: table-cell;
     vertical-align: middle;
     text-align: center;
