@@ -30,4 +30,4 @@ The map is generated from a file '*nodes.json*' in the root directory. This file
 - **@roikiermedia**
 
 ---
-*Freifunk Flensburg is a project by the nordlab e.V.*
+*Freifunk Flensburg is a project of nordlab e.V.*
