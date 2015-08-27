@@ -487,11 +487,17 @@ html.sticky .logo a {
     color: #ffffff; /* white */
     padding: 2em;
     opacity: 0.7;
+	height:10em;
 }
-
+.participate_list-choose-customer li.active header{
+    height:11em;
+}
 .participate_list-choose-customer li:hover header h3,
 .participate_list-choose-customer li.active header h3 {
     text-decoration: underline;
+}
+.participate_list-choose-customer li header:hover {
+	opacity: 0.8;
 }
 
 .participate_list-choose-customer li.active header {
