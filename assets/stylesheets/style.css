@@ -500,6 +500,9 @@ html.sticky .logo a {
 	opacity: 0.8;
 }
 
+.participate_list-choose-customer li header a{
+	color:white;
+}
 .participate_list-choose-customer li.active header {
     opacity: 1;
 }
