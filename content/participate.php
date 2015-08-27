@@ -8,7 +8,7 @@
     <li data-show-customer="member" class="member">
         <header>
             <h3>Freifunker</h3>
-            <p>Du bist schon länger dabei und suchst nach Informationen oder der Firmware?</p>
+            <p>Du bist schon länger dabei und suchst nach Informationen oder der <a href="#Firmware">Firmware</a>?</p>
         </header>
     </li>
     <li data-show-customer="sponsor" class="sponsor">
