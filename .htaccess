@@ -549,3 +549,7 @@ FileETag None
 # <IfModule mod_headers.c>
 #    Header set Connection Keep-Alive
 # </IfModule>
+<IfModule mod_php5.c>
+    php_value default_charset utf-8
+</IfModule>
+
