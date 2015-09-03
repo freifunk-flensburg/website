@@ -466,39 +466,44 @@ html.sticky .logo a {
 /*  participate section
     ========================================================================== */
 
-.participate_list-choose-customer {
+.choose-customer {
     list-style: none;
     margin-bottom: 0;
 }
 
-.participate_list-choose-customer li {
-    width: 33.33333%;
+.choose-customer li {
+    width: 100%;
     float: left;
     border-right: 2px solid #ffffff; /* white */
     cursor: pointer;
 }
 
-.participate_list-choose-customer li:last-child {
+.choose-customer li:last-child {
     border: 0;
 }
 
-.participate_list-choose-customer li header {
+.choose-customer li header {
     background-color: #dc0067; /* freifunk magenta */
     color: #ffffff; /* white */
     padding: 2em;
     opacity: 0.7;
 }
-
-.participate_list-choose-customer li:hover header h3,
-.participate_list-choose-customer li.active header h3 {
+.choose-customer li header h3 {
     text-decoration: underline;
+	margin-bottom:0.5em;
+}
+.choose-customer li header:hover {
+	opacity: 0.8;
 }
 
-.participate_list-choose-customer li.active header {
+.choose-customer li header a{
+	color:white;
+}
+.choose-customer li.active header {
     opacity: 1;
 }
 
-.participate_list-choose-customer li.active:after {
+.choose-customer li.active:after {
     position: absolute;
     content: '';
     display: block;
@@ -510,35 +515,21 @@ html.sticky .logo a {
     border-top: 1em solid #dc0067; /* freifunk magenta */
 }
 
-.participate_list-choose-customer:after {
+.choose-customer:after {
     content: '';
     display: block;
     clear: both;
 }
 
-.participate_show-customer {
-    max-height: 0;
+.show-customer {
     padding: 0 2em;
-    overflow: hidden;
     clear: both;
-}
-
-.participate_show-customer:after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.participate_show-customer.active {
     border-bottom: 2px solid #d3d3d3; /* light grey */
     border-left: 2px solid #d3d3d3; /* light grey */
     border-right: 2px solid #d3d3d3; /* light grey */
     padding-top: 40px;
     padding-bottom: 2em;
-    max-height: 2000px;
-    -webkit-transition: max-height 500ms ease-out;
-    -moz-transition: max-height 500ms ease-out;
-    transition: max-height 500ms ease-out;
+	min-height: 26em;
 }
 
 .participate_download-form {
@@ -614,11 +605,7 @@ html.sticky .logo a {
     display: inline;
 }
 
-@media all and (max-width: 900px) {
-
-    .participate_list-choose-customer li header p {
-        display: none;
-    }
+@media all and (max-width: 9900px) {
 
     .participate_download-form {
         width: 100%;
@@ -638,7 +625,7 @@ html.sticky .logo a {
 
 @media all and (max-width: 700px) {
 
-    .participate_list-choose-customer li {
+    .choose-customer li {
         width: 100%;
         float: none;
         border: 0;
@@ -782,7 +769,6 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 800px) {
-
     .list-external-links li {
         display: block;
         margin-bottom: 0.25em;
