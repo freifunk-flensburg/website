@@ -1,22 +1,4 @@
 /*
-    init particle background
-*/
-$(document).ready(function() {
-    $('#start_simulate-wlan').particleground({
-        minSpeedX: 0.1,
-        maxSpeedX: 0.1,
-        minSpeedY: 0.1,
-        maxSpeedY: 0.1,
-        dotColor: '#ffffff',
-        lineColor: '#ffffff',
-        particleRadius: 10,
-        lineWidth: 1,
-        proximity: 100,
-        parallaxMultiplier: 20
-    });
-});
-
-/*
     sticky navigation
 */
 $(document).ready(function() {
@@ -41,19 +23,17 @@ $(document).ready(function() {
     get json data for map
 */
 $(document).ready(function() {
-
     $.ajax({
       url: 'assets/javascripts/leaflet-0.7.3/leaflet.js',
       dataType: 'script',
       cache: true,
       success: function() {
-
         var myIcon = L.icon({
             iconUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconRetinaUrl: 'assets/images/freifunk-flensburg-map-icon.png',
             iconSize: [30, 32],
-            iconAnchor: L.Point[30, 32],
-            popupAnchor: L.Point[-15, -32]
+            iconAnchor: L.Point(30, 32),
+            popupAnchor: L.Point(-15, -32)
         });
 
         var map = L.map('map', {
@@ -68,25 +48,25 @@ $(document).ready(function() {
         }).addTo(map);
 
         var setNodeToMap = function(node) {
-            if(node.geo && node.flags.online) {
-                L.marker([node.geo[0], node.geo[1]], {icon: myIcon}).addTo(map).bindPopup('<h3>'+node.name+'</h3>');
+            if(node.nodeinfo.location && node.flags.online) {
+                L.marker([node.nodeinfo.location.latitude, node.nodeinfo.location.longitude], {icon: myIcon}).addTo(map).bindPopup('<h3>' + node.nodeinfo.hostname + '</h3>');
             }
-        }
+        };
 
         $.ajax({
             cache: false,
             url: 'nodes.json',
             dataType: 'json',
             success: function(data) {
-                data.nodes.forEach(setNodeToMap);
-
                 var countNodes = 0;
 
-                for (var i = data.nodes.length - 1; i >= 0; i--) {
-                    if(data.nodes[i].flags.online && data.nodes[i].name != '') {
+                for (var node in data.nodes) {
+                    setNodeToMap(data.nodes[node]);
+
+                    if (data.nodes[node].flags.online && data.nodes[node].nodeinfo.hostname !== '') {
                         countNodes++;
                     }
-                };
+                }
 
                 $('#count-nodes').html(countNodes);
             }
@@ -120,23 +100,6 @@ $(document).ready(function() {
     firmware download
 */
 $(document).ready(function() {
-
-    $('#download_form_choose_community').on('change', function() {
-
-        $('.participate_list-firmware-information').fadeOut();
-
-        switch ($(this).val()) {
-            case '1':
-                $('#chaostreff-firmware-information').fadeIn();
-                break;
-            case '2':
-                $('#nordlab-firmware-information').fadeIn();
-                break;
-            default:
-                break;
-        }
-    });
-
     $('#download-form').submit(function( event ) {
         event.preventDefault();
 
@@ -156,22 +119,17 @@ $(document).ready(function() {
                 break;
             default:
                 type = 'factory';
-                break;
         }
 
-        switch ($('#download_form_choose_community').val()) {
+        switch ($('#download_form_choose_comunity').val()) {
             case '0':
                 community = 'notset';
                 break;
             case '1':
-                community = 'cffl';
-                break;
-            case '2':
                 community = 'nordlab';
                 break;
             default:
-                community = 'nichtgesetzt';
-                break;
+                community = 'notset';
         }
 
         router = $('#download-form-router').val();
@@ -180,18 +138,12 @@ $(document).ready(function() {
             window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
          }
          else{
-                if(community=='notset'){
+                if(community == 'notset'){
                     window.alert('Bitte gib eine Comunity an.');
                 }
                 else {
-                    cfflPrefix='gluon-cffl-cffl-stable-2014.4.0-0';
-                    nordlabPrefix='gluon-fffl-S-1.1';
-                    if(community == 'cffl') {
-                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+cfflPrefix+router+fileExtension+'.bin';
-                    }
-                    else {
-                        window.location.href = 'media/firmware/'+community+'/'+type+'/'+nordlabPrefix+router+fileExtension+'.bin';
-                    }
+                    prefix = 'gluon-fffl-stable-2015.1.2-0';
+                    window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
                 }
         }
 
