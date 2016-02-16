@@ -1,9 +1,9 @@
 <div class="contact_left">
 	<h3>Offline</h3>
-	<p>Freifunk Flensburg ist ein Community mit Unterstützung des NordLab e.V. . Interessierte sind gerne eingeladen bei den Treffen des nordlab e.V. Montags im Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen. <br></p>
+	<p>Freifunk Flensburg ist ein Community mit Unterstützung des nordlab e. V. &ndash; Interessierte sind gerne eingeladen bei den Treffen des nordlab e. V. Montags im Offenen Kanal, St.-Jürgen-Straße 95, ab 18:00 Uhr vorbei zu schauen.<br></p>
 	<address>
 		Telefon: <a href="tel:0461574945882">0461 574945882</a>  <br>
-		nordlab e.V. <br>
+		nordlab e. V. <br>
 		Zur Bleiche 12 <br>
 		24941 Flensburg
 	</address>
