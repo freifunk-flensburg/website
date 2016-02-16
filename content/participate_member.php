@@ -7,15 +7,7 @@
             <option value="1">Freifunk Firmware updaten</option>
         </select>
     </div>
-    <div style="display:none">
-      <label>Wähle eine Community:</label>
-      <div class="select-field">
-        <select id="download_form_choose_comunity">
-            <option value="0">Bitte auswählen</option>
-            <option value="1" selected>Offizielle Community Firmware</option>
-        </select>
-      </div>
-    </div>
+    <input type="hidden" id="download_form_choose_comunity" value="1">
     <label>Wähle einen Router aus:</label>
     <div class="select-field">
         <select id="download-form-router">
