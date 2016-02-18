@@ -1,7 +1,7 @@
 <h4>Spenden sind willkommen</h4>
 <p>Wir freuen uns jederzeit, wenn du das Projekt finanziell unterstützen möchtest. Dabei ist es egal wie groß oder klein dein
 Beitrag ist: Jede Spende ist hilfreich! Natürlich stellen wir dir auf Wunsch auch eine Spendenquittung aus. <br>
-Wenn du uns regelmäßig unterstützen möchtest kannst du auch ein Fördermitglied im nordlab e.V. oder Chaostreff Flensburg werden.
+Wenn du uns regelmäßig unterstützen möchtest kannst du auch ein Fördermitglied im nordlab e. V. oder Chaostreff Flensburg werden.
 Wende dich für weitere Informationen bitte mit einer <a target="_blank" href="mailto:presse@freifunk-flensburg.de">Mail an uns</a>.</p>
 
 <h4>Hohe Gebäude gesucht</h4>
