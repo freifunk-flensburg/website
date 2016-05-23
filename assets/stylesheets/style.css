@@ -645,7 +645,6 @@ html.sticky .logo a {
 
 }
 
-
 /*  faq section
     ========================================================================== */
 
@@ -699,6 +698,27 @@ html.sticky .logo a {
     .faq_content {
         margin-bottom: 2em;
     }
+}
+
+/*  donate section
+    ========================================================================== */
+
+.donate_left {
+	float: left;
+	width: 50%;
+    padding-right: 2em;
+    border-right: 2px solid #d3d3d3; /* light grey */
+}
+
+.donate_right {
+    width: 50%;
+    float: right;
+    padding-left: 2em;
+}
+
+.bank_account {
+	border-collapse: separate;
+    border-spacing: 15px;
 }
 
 /*  contact section

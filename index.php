@@ -33,6 +33,7 @@
                         <li><a href="#find-us">Karte</a></li>
                         <li><a href="#participate">Mitmachen</a></li>
                         <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#donate">Spenden</a></li>
                         <li><a href="#contact">Kontakt</a></li>
                         <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Wiki</a></li>
                     </ul>
@@ -72,6 +73,15 @@
             </figure>
             <section class="section-standard">
                 <?php include('content/faq.php'); ?>
+            </section>
+            <figure name="donate" id="donate" class="section-image">
+                <img src="media/freifunk-flensburg-spenden.jpg" alt="Spenden an Freifunk Flensburg">
+                <figcaption>
+                    <h2>Ohne Moos nix los</h2>
+                </figcaption>
+            </figure>
+            <section class="section-standard">
+                <?php include('content/donate.php'); ?>
             </section>
             <figure name="contact" id="contact" class="section-image">
                 <img src="media/freifunk-flensburg-kontakte.jpg" alt="Basteln beim Freifunk Flensburg">
