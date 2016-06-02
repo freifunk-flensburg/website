@@ -3,7 +3,7 @@
 		<h4>Frage</h4>
 		<p>Darf ich Freifunk einfach so benutzen?</p>
 		<h4>Antwort</h4>
-		<p>Natürlich darfst du das, denn es ist ein Bürgernetz, dass allen gehört und an dem alle mitwirken. Daher würden wir uns freuen wenn auch du einen Knoten aufstellst.</p>
+		<p>Natürlich darfst du das, denn es ist ein Bürgernetz, das allen gehört und an dem alle mitwirken. Daher würden wir uns freuen wenn auch du einen Knoten aufstellst.</p>
 	</article>
 	<article class="faq_content">
 		<h4>Frage</h4>
