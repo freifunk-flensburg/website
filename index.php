@@ -30,7 +30,7 @@
                 <nav class="main-navigation">
                     <ul>
                         <li><a href="#start">Start</a></li>
-                        <li><a href="#find-us">Karte</a></li>
+                        <li><a href="http://map.freifunk-flensburg.de/">Karte</a></li>
                         <li><a href="#participate">Mitmachen</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <li><a href="#donate">Spenden</a></li>
@@ -46,15 +46,6 @@
             </section>
             <section class="section-standard">
                 <?php include('content/about.php'); ?>
-            </section>
-            <figure class="section-image">
-                <img name="find-us" id="find-us" src="media/freifunk-flensburg-smartphone-by-fabian-horst.jpg" alt="Freifunk Flensburg - auch in deiner Nähe">
-                <figcaption>
-                    <h2>Auch in deiner Nähe</h2>
-                </figcaption>
-            </figure>
-            <section class="section-standard">
-                <?php include('content/find-us.php'); ?>
             </section>
             <figure name="participate" id="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg" alt="Freifunk Flensburg - Router an der Hafenspitze">
