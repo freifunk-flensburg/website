@@ -136,15 +136,15 @@ $(document).ready(function() {
 
         if(router === '-1') {
             window.alert('Bitte wähle eine Router aus. Den genauen Namen und die Version deines Routers findest du auf seiner Unterseite.');
-         }
-         else{
-                if(community == 'notset'){
-                    window.alert('Bitte gib eine Comunity an.');
-                }
-                else {
-                    prefix = 'gluon-fffl-stable-2015.1.2-0';
-                    window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
-                }
+        }
+        else{
+            if(community == 'notset'){
+                window.alert('Bitte gib eine Comunity an.');
+            }
+            else {
+                prefix = 'gluon-fffl-stable-2015.1.2-0';
+                window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
+            }
         }
 
         return false;

@@ -559,7 +559,8 @@ html.sticky .logo a {
 
 .participate_download-form select,
 .participate_download-form input,
-.participate_download-form .button {
+.participate_download-form .button,
+.participate_download-form .submit{
     display: block;
     padding: 0.5em 1em;
     margin: 0 0 1em 0;
@@ -594,6 +595,7 @@ html.sticky .logo a {
     border-top: 0.3em solid #d3d3d3; /* freifunk magenta */
 }
 
+.participate_download-form .submit,
 .participate_download-form .button {
     width: auto;
     display: inline-block;
@@ -603,6 +605,7 @@ html.sticky .logo a {
     border-color: #dc0067; /* freifunk magenta */;
 }
 
+.participate_download-form .submit:hover,
 .participate_download-form .button:hover {
     background-color: #ffb400; /* freifunk yellow */
     border-color: #ffb400; /* freifunk yellow */

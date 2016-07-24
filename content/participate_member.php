@@ -1,8 +1,8 @@
-<form class="participate_download-form" id="download-form">
+<form class="participate_download-form" id="download-form" action="firmware-download.php">
     <h3>Firmware-Download</h3>
     <label>Wähle eine Aktion aus:</label>
     <div class="select-field">
-        <select id="download-form-type">
+        <select id="download-form-type" name="type">
             <option value="0">Freifunk Firmware neu installieren</option>
             <option value="1">Freifunk Firmware updaten</option>
         </select>
@@ -10,7 +10,7 @@
     <div style="display:none">
       <label>Wähle eine Community:</label>
       <div class="select-field">
-        <select id="download_form_choose_comunity">
+        <select id="download_form_choose_comunity" name="choose_comunity">
             <option value="0">Bitte auswählen</option>
             <option value="1" selected>Offizielle Community Firmware</option>
         </select>
@@ -18,7 +18,7 @@
     </div>
     <label>Wähle einen Router aus:</label>
     <div class="select-field">
-        <select id="download-form-router">
+        <select id="download-form-router" name="router">
             <option value="-1">Bitte wähle einen Router aus</option>
             <optgroup label="Allnet">
                 <option value="-allnet-all0315n">Allnet 0315n</option>
@@ -124,7 +124,7 @@
             </optgroup>
         </select>
     </div>
-    <button class="button">Herunterladen</button>
+    <input type="submit" class="submit" value="Herunterladen">
     <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
