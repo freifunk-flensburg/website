@@ -95,7 +95,7 @@
                 <option value="-tp-link-tl-wr841n-nd-v7">TP-Link TL WR 841 N/ND Ver:7</option>
                 <option value="-tp-link-tl-wr841n-nd-v8">TP-Link TL WR 841 N/ND Ver:8</option>
                 <option value="-tp-link-tl-wr841n-nd-v9">TP-Link TL WR 841 N/ND Ver:9</option>
-                <option value="-tp-link-tl-wr841n-nd-v10">TP-Link TL WR 841 N/ND Ver:10</option>
+                <option value="-tp-link-tl-wr841n-nd-v10" class="highlighted">TP-Link TL WR 841 N/ND Ver:10</option>
                 <option value="-tp-link-tl-wr842n-nd-v1">TP-Link TL WR 842 N/ND Ver:1</option>
                 <option value="-tp-link-tl-wr842n-nd-v2">TP-Link TL WR 842 N/ND Ver:2</option>
                 <option value="-tp-link-tl-wr941n-nd-v2">TP-Link TL WR 941 N/ND Ver:2</option>
@@ -104,7 +104,7 @@
                 <option value="-tp-link-tl-wr941n-nd-v5">TP-Link TL WR 941 N/ND Ver:5</option>
                 <option value="-tp-link-tl-wr1043n-nd-v1">TP-Link TL WR 1043 N/ND Ver:1</option>
                 <option value="-tp-link-tl-wr1043n-nd-v2">TP-Link TL WR 1043 N/ND Ver:2</option>
-                <option value="-tp-link-tl-wr1043n-nd-v3">TP-Link TL WR 1043 N/ND Ver:3</option>
+                <option value="-tp-link-tl-wr1043n-nd-v3" class="highlighted">TP-Link TL WR 1043 N/ND Ver:3</option>
             </optgroup>
             <optgroup label="Ubiquiti">
                 <option value="-ubiquiti-bullet-m">Ubiquiti Bullet M</option>

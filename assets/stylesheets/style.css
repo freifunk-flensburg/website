@@ -611,6 +611,10 @@ html.sticky .logo a {
     border-color: #ffb400; /* freifunk yellow */
 }
 
+.participate_download-form .highlighted {
+    color:#dc0067; /* freifunk magenta */;
+}
+
 .participate_list-links {
     width: 50%;
     float: right;
