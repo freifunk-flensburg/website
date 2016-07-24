@@ -487,13 +487,22 @@ html.sticky .logo a {
     color: #ffffff; /* white */
     padding: 2em;
     opacity: 0.7;
+    height:10em;
 }
-
+.participate_list-choose-customer li.active header{
+    height:11em;
+}
 .participate_list-choose-customer li:hover header h3,
 .participate_list-choose-customer li.active header h3 {
     text-decoration: underline;
 }
+.participate_list-choose-customer li header:hover {
+	opacity: 0.8;
+}
 
+.participate_list-choose-customer li header a{
+	color:white;
+}
 .participate_list-choose-customer li.active header {
     opacity: 1;
 }
@@ -550,7 +559,8 @@ html.sticky .logo a {
 
 .participate_download-form select,
 .participate_download-form input,
-.participate_download-form .button {
+.participate_download-form .button,
+.participate_download-form .submit{
     display: block;
     padding: 0.5em 1em;
     margin: 0 0 1em 0;
@@ -585,6 +595,7 @@ html.sticky .logo a {
     border-top: 0.3em solid #d3d3d3; /* freifunk magenta */
 }
 
+.participate_download-form .submit,
 .participate_download-form .button {
     width: auto;
     display: inline-block;
@@ -594,9 +605,14 @@ html.sticky .logo a {
     border-color: #dc0067; /* freifunk magenta */;
 }
 
+.participate_download-form .submit:hover,
 .participate_download-form .button:hover {
     background-color: #ffb400; /* freifunk yellow */
     border-color: #ffb400; /* freifunk yellow */
+}
+
+.participate_download-form .highlighted {
+    color:#dc0067; /* freifunk magenta */;
 }
 
 .participate_list-links {
@@ -801,8 +817,20 @@ html.sticky .logo a {
     background-color: #829aa8;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1000px) {
+    .participate_list-choose-customer li header,
+    .participate_list-choose-customer li.active header{
+        height:12em;
+    }
+}
+@media all and (max-width: 900px) {
+    .participate_list-choose-customer li header,
+    .participate_list-choose-customer li.active header{
+        height:inherit;
+    }
+}
 
+@media all and (max-width: 800px) {
     .list-external-links li {
         display: block;
         margin-bottom: 0.25em;
