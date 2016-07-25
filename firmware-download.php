@@ -1,7 +1,8 @@
 <?php
+require_once "config.inc.php";
+
 $router=$_REQUEST["router"];
 $fileExtension = '';
-$prefix = 'gluon-fffl-stable-2015.1.2-0';
 $baseurl="./";
 
 

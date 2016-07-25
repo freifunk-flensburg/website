@@ -1,3 +1,6 @@
+<?php
+require_once "../../config.inc.php";
+?>
 /*
     sticky navigation
 */
@@ -81,10 +84,12 @@ $(document).ready(function() {
         }
         else{
             if(community == 'notset'){
-                window.alert('Bitte gib eine Comunity an.');
+                window.alert('Bitte gib eine Community an.');
             }
             else {
-                prefix = 'gluon-fffl-stable-2015.1.2-0';
+                prefix = '<?php
+                echo $firmware_prefix;
+                ?>';
                 window.location.href = 'media/firmware/' + community + '/' + type + '/' + prefix + router + fileExtension + '.bin';
             }
         }
