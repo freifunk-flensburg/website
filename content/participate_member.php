@@ -1,3 +1,7 @@
+<?php
+require_once "config.inc.php";
+?>
+
 <form class="participate_download-form" id="download-form" action="firmware-download.php">
     <a name="Firmware"></a>
     <h3>Firmware-Download</h3>
@@ -8,7 +12,7 @@
             <option value="1">Freifunk Firmware updaten</option>
         </select>
     </div>
-    <div style="display:none">
+    <div <?=$show_community_selector ? : 'style="display:none"'?>>
       <label>Wähle eine Community:</label>
       <div class="select-field">
         <select id="download_form_choose_comunity" name="choose_comunity">
