@@ -1,4 +1,4 @@
-<ul class="choose-customer" class="participate_list-choose-customer">
+<ul class="choose-customer participate_list-choose-customer">
     <li data-show-customer="rookie" class="active">
         <header>
             <h3>Anfänger</h3>
@@ -11,10 +11,9 @@
         <?php include('content/participate_customer.php'); ?>
     </article>
 </section>
-<ul class="choose-customer" class="participate_list-choose-customer">
+<ul class="choose-customer participate_list-choose-customer">
     <li data-show-customer="member" class="member">
-        <header>
-            <a name="Firmware"></a>
+        <header id="Firmware">
             <h3>Freifunker</h3>
             <p>Du bist schon länger dabei und suchst nach Informationen oder der <a href="#Firmware">Firmware</a>?</p>
         </header>
@@ -25,7 +24,7 @@
         <?php include('content/participate_member.php'); ?>
     </article>
 </section>
-<ul class="choose-customer" class="participate_list-choose-customer">
+<ul class="choose-customer participate_list-choose-customer">
     <li data-show-customer="sponsor" class="sponsor">
         <header>
             <h3>Unterstützer</h3>

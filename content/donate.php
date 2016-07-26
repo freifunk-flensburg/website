@@ -27,6 +27,6 @@
     <div class="donate_right">
         <h3>Bargeld</h3>
 
-        </p>Wer keine Überweisung vornehmen kann oder möchte, hat die Möglichkeit Bargeld zu spenden. Dieses kann beim nordlab e. V. vorbeigebracht werden, falls dieser geöffnet ist. In der Regel ist der nordlab e. V. jeden Montag ab 18 Uhr geöffnet. Ob der dieser aktuell geöffnet ist, lässt sich auf <a href="http://nordlab-ev.de">dessen Webseite</a> einsehen.</p>
+        <p>Wer keine Überweisung vornehmen kann oder möchte, hat die Möglichkeit Bargeld zu spenden. Dieses kann beim nordlab e. V. vorbeigebracht werden, falls dieser geöffnet ist. In der Regel ist der nordlab e. V. jeden Montag ab 18 Uhr geöffnet. Ob der dieser aktuell geöffnet ist, lässt sich auf <a href="http://nordlab-ev.de">dessen Webseite</a> einsehen.</p>
     </div>
 </div>
