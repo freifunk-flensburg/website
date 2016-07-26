@@ -38,7 +38,7 @@ if($router === '-1') {
         backlink('Bitte gib eine Comunity an.');
     }
     else {
-        $href=$baseurl.'media/firmware/' . $community . '/' . $type . '/' . $prefix . $router . $fileExtension . '.bin';
+        $href=$baseurl.'media/firmware/' . $community . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
         header('location: '.$href);
         echo '<a href="'.$href.'">redirecting</a>';
     }
