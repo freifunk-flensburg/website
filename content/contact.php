@@ -17,6 +17,6 @@
 		IRC: <a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/IRC">#freifunk-flensburg</a><br>
 		Mailingliste: <a target="_blank" href="http://lists.freifunk-flensburg.de/listinfo/freifunk">Anmeldung</a>
 	</address>
-	<p>Besuche uns im <a href="https://kiwiirc.com/client/irc.lugfl.de:+6668/?nick=Website-Guest|?#freifunk-flensburg" target="_blank">Webchat</a>.</p>
+	<p>Besuche uns im <a href="https://kiwiirc.com/client/irc.lugfl.de:+6668/?nick=Website-Guest%7C?#freifunk-flensburg" target="_blank">Webchat</a>.</p>
 	<p>Videos von uns findest du auch auf unserem <a href="https://www.youtube.com/channel/UCWX6f-3kFLJkuPwWvnZX3fA/" target="blank">YouTube-Kanal</a>.</p>
 </div>

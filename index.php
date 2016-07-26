@@ -3,8 +3,8 @@
 <!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
-    <head name="start">
+<!--[if gt IE 8]><!--> <html lang="de"> <!--<![endif]-->
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Freifunk Flensburg</title>
@@ -17,7 +17,7 @@
         <link rel="manifest" href="manifest.json">
         <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     </head>
-    <body id="start">
+    <body>
         <!--[if lt IE 9]>
             <aside class="browse-happy">Du benutzt einen <strong>veralteten</strong> Webbrowser. Einige Funktionen dieser Webseite werden leider nicht funktionieren. Du kannst einen neuen <a target="_blank" href="http://browsehappy.com/">sicheren Webbrowser herunterladen</a>, um dein Erlebnis auf unserer und anderen Internetseiten zu verbessern.</p></aside>
         <![endif]-->
@@ -47,7 +47,7 @@
             <section class="section-standard">
                 <?php include('content/about.php'); ?>
             </section>
-            <figure name="participate" id="participate" class="section-image">
+            <figure id="participate" class="section-image">
                 <img src="media/freifunk-flensburg-routerhafenspitze-by-fabian-horst.jpg" alt="Freifunk Flensburg - Router an der Hafenspitze">
                 <figcaption>
                     <h2>Mach mit, bewege Bytes</h2>
@@ -56,7 +56,7 @@
             <section class="section-standard">
                 <?php include('content/participate.php'); ?>
             </section>
-            <figure name="faq" id="faq" class="section-image">
+            <figure id="faq" class="section-image">
                 <img src="media/freifunk-flensburg-fragen-by-fabian-horst.jpg" alt="Freifunk Flensburg - Mit den richtigen Antworten">
                 <figcaption>
                     <h2>Wir haben Antworten</h2>
@@ -65,7 +65,7 @@
             <section class="section-standard">
                 <?php include('content/faq.php'); ?>
             </section>
-            <figure name="donate" id="donate" class="section-image">
+            <figure id="donate" class="section-image">
                 <img src="media/freifunk-flensburg-spenden.jpg" alt="Spenden an Freifunk Flensburg">
                 <figcaption>
                     <h2>Ohne Moos nix los</h2>
@@ -74,7 +74,7 @@
             <section class="section-standard">
                 <?php include('content/donate.php'); ?>
             </section>
-            <figure name="contact" id="contact" class="section-image">
+            <figure id="contact" class="section-image">
                 <img src="media/freifunk-flensburg-kontakte.jpg" alt="Basteln beim Freifunk Flensburg">
                 <figcaption>
                     <h2>Jede Menge Kontakt(e)</h2>
