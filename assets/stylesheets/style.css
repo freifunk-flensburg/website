@@ -742,6 +742,7 @@ html.sticky .logo a {
     width: 50%;
     padding-right: 2em;
     border-right: 2px solid #d3d3d3; /* light grey */
+    overflow: auto;
 }
 
 .donate_right {
