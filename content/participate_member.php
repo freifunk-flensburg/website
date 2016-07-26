@@ -3,7 +3,6 @@ require_once "config.inc.php";
 ?>
 
 <form class="participate_download-form" id="download-form" action="firmware-download.php">
-    <a name="Firmware"></a>
     <h3>Firmware-Download</h3>
     <label>Wähle eine Aktion aus:</label>
     <div class="select-field">

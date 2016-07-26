@@ -13,8 +13,7 @@
 </section>
 <ul class="choose-customer participate_list-choose-customer">
     <li data-show-customer="member" class="member">
-        <header>
-            <a name="Firmware"></a>
+        <header class="Firmware">
             <h3>Freifunker</h3>
             <p>Du bist schon länger dabei und suchst nach Informationen oder der <a href="#Firmware">Firmware</a>?</p>
         </header>
