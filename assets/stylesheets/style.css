@@ -1,4 +1,4 @@
-/*  freifunk flensburg website stylesheets */  
+/*  freifunk flensburg website stylesheets */
 
 /*  reset css;
     ========================================================================== */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -53,8 +53,8 @@ table {
 }
 
 a:focus,
-button:focus { 
-    outline: none; 
+button:focus {
+    outline: none;
 }
 
 button::-moz-focus-inner {
@@ -67,7 +67,7 @@ button::-moz-focus-inner {
 *,
 *:before,
 *:after {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
@@ -81,7 +81,7 @@ html {
     color: #000000; /* black */
     font-family: 'Source Sans Pro', sans-serif;
 }
-    
+
 body {
     line-height: 1.4;
 }
@@ -91,7 +91,7 @@ h1 {
 }
 
 h2 {
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 h3 {
@@ -107,7 +107,7 @@ a {
 }
 
 address {
-    font-style: normal; 
+    font-style: normal;
 }
 
 strong {
@@ -224,7 +224,6 @@ noscript a {
 }
 
 @media all and (max-width: 500px) {
-
     .section-image figcaption h2 {
         position: static;
         font-size: 2em;
@@ -421,11 +420,9 @@ html.sticky .logo a {
 }
 
 @media all and (max-height: 800px) {
-
     .start {
         height: 300px;
     }
-
 }
 
 .start canvas {
@@ -455,15 +452,12 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 1350px) {
-
     .start figcaption h2 {
         font-size: 3.5em;
     }
-
 }
 
 @media all and (max-width: 800px) {
-
     .start {
         height: auto;
     }
@@ -481,15 +475,12 @@ html.sticky .logo a {
         padding: 2em;
         font-size: 2em;
     }
-
 }
 
 @media all and (max-width: 500px) {
-
     .start figcaption h2 {
         font-size: 1.5em;
     }
-
 }
 
 /*  about section
@@ -508,7 +499,6 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 800px) {
-
     .about_main figure {
         width: 100%;
         padding-left: 0;
@@ -516,7 +506,6 @@ html.sticky .logo a {
         float: none;
         text-align: center;
     }
-    
 }
 
 /*  participate section
@@ -546,14 +535,14 @@ html.sticky .logo a {
 }
 .choose-customer li header h3 {
     text-decoration: underline;
-	margin-bottom:0.5em;
+    margin-bottom:0.5em;
 }
 .choose-customer li header:hover {
-	opacity: 0.8;
+    opacity: 0.8;
 }
 
 .choose-customer li header a{
-	color:white;
+    color:white;
 }
 .choose-customer li.active header {
     opacity: 1;
@@ -564,8 +553,8 @@ html.sticky .logo a {
     content: '';
     display: block;
     margin-left: 2em;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 1em solid transparent;
     border-right: 1em solid transparent;
     border-top: 1em solid #dc0067; /* freifunk magenta */
@@ -585,7 +574,7 @@ html.sticky .logo a {
     border-right: 2px solid #d3d3d3; /* light grey */
     padding-top: 40px;
     padding-bottom: 2em;
-	min-height: 26em;
+    min-height: 26em;
 }
 
 .participate_download-form {
@@ -613,8 +602,6 @@ html.sticky .logo a {
     border: 2px solid #d3d3d3; /* light grey */
 }
 
-
-
 .participate_download-form .select-field {
     position: relative;
 }
@@ -626,8 +613,8 @@ html.sticky .logo a {
     top: 50%;
     right: 0.5em;
     margin-top: -0.15em;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 0.3em solid transparent;
     border-right: 0.3em solid transparent;
     border-top: 0.3em solid #d3d3d3; /* freifunk magenta */
@@ -669,7 +656,6 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 9900px) {
-
     .participate_download-form {
         width: 100%;
         float: none;
@@ -683,17 +669,14 @@ html.sticky .logo a {
         float: none;
         padding-left: 0;
     }
-
 }
 
 @media all and (max-width: 700px) {
-
     .choose-customer li {
         width: 100%;
         float: none;
         border: 0;
     }
-
 }
 
 /*  faq section
@@ -755,8 +738,8 @@ html.sticky .logo a {
     ========================================================================== */
 
 .donate_left {
-	float: left;
-	width: 50%;
+    float: left;
+    width: 50%;
     padding-right: 2em;
     border-right: 2px solid #d3d3d3; /* light grey */
 }
@@ -768,7 +751,7 @@ html.sticky .logo a {
 }
 
 .bank_account {
-	border-collapse: separate;
+    border-collapse: separate;
     border-spacing: 15px;
 }
 
@@ -789,7 +772,6 @@ html.sticky .logo a {
 }
 
 @media all and (max-width: 800px) {
-
     .contact_left {
         float: none;
         width: 100%;
@@ -803,7 +785,6 @@ html.sticky .logo a {
         float: none;
         padding-left: 0;
     }
-
 }
 
 /*  footer
@@ -864,7 +845,6 @@ html.sticky .logo a {
     .list-external-links li a {
         display: inline-block;
     }
-
 }
 
 @media all and (max-width: 400px) {
