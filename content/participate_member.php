@@ -12,7 +12,7 @@ require_once "config.inc.php";
             <option value="1">Freifunk Firmware updaten</option>
         </select>
     </div>
-    <div <?=$show_community_selector ? : 'style="display:none"'?>>
+    <div <?php echo $show_community_selector ? : 'style="display:none"'; ?>>
       <label>Wähle eine Community:</label>
       <div class="select-field">
         <select id="download_form_choose_comunity" name="choose_comunity">
