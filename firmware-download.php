@@ -5,7 +5,6 @@ $router=$_REQUEST["router"];
 $fileExtension = '';
 $baseurl="./";
 
-
 switch ($_REQUEST["type"]) {
     case '0':
         $type = 'factory';
@@ -45,7 +44,6 @@ if($router === '-1') {
 }
 
 function backlink($t){
-    echo $t;
-    ?><br>
-    <br><a href="<?=$_SERVER["referer"]?>">zur&uuml;ck</a>
+    echo "$t<br>\n";
+    echo "<br><a href=" . $_SERVER["referer"] . ">zur&uuml;ck</a>\n";
 }
