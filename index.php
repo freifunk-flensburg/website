@@ -28,7 +28,7 @@
                     <a href="#start">Freifunk Flensburg</a>
                 </h1>
                 <nav class="main-navigation">
-                    <ul onclick="">
+                    <ul onclick="<?php /* Fixes missing hover effect on iOS */?>">
                         <li><a href="#start">Start</a></li>
                         <li><a href="http://map.freifunk-flensburg.de/">Karte</a></li>
                         <li><a href="#participate">Mitmachen</a></li>
