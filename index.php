@@ -106,6 +106,6 @@
 
         <script src="assets/javascripts/jquery-1.11.1.min.js"></script>
         <script async src="assets/javascripts/jquery.particleground.min.js"></script>
-        <script async src="assets/javascripts/jquery.main.js.php"></script>
+        <script async src="assets/javascripts/jquery.main-js.php"></script>
     </body>
 </html>
