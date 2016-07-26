@@ -69,7 +69,7 @@ button::-moz-focus-inner {
 *:after {
     box-sizing: border-box; 
     -webkit-box-sizing: border-box;
-    -mz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 /*  main elements
@@ -314,8 +314,7 @@ html.sticky .logo a {
     padding-right: 0;
 }
 
-@media all and (max-width:800px) {
-
+@media all and (max-width: 800px) {
     html.sticky .main-header-wrap,
     .main-header-wrap {
         border-bottom: 2px solid #d3d3d3; /* light grey */
@@ -333,11 +332,76 @@ html.sticky .logo a {
         background-position: 120px 0;
         overflow: hidden;
     }
+}
+
+@media all and (max-width: 1000px) {
+    .logo {
+        float: left;
+    }
 
     .main-navigation {
+        float: right;
+        padding: 1em 0;
+        position: static;
+        text-align: right;
+    }
+
+    .main-header-wrap header {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .main-navigation ul {
+        background-image: url(../../assets/images/iconmonstr-menu-1.svg);
+        background-repeat: no-repeat;
+        background-size: 40px;
+        background-position: right 0.7em top;
+        display: block;
+        min-height: 30px;
+        min-width: 100px;
+        padding-top: 2em;
+    }
+
+    .main-navigation ul:focus li, .main-navigation ul:active li, .main-navigation ul:hover li {
+        cursor: pointer;
+        display: block;
+    }
+
+    .main-navigation ul:hover {
+        background-size: 25px;
+        background: none;
+        padding-top: 0;
+    }
+
+    .main-navigation ul li {
+        display: none;
+        padding-right: 1em;
+    }
+
+    .html.sticky .main-navigation ul li {
         display: none;
     }
 
+    .main-navigation ul li a {
+        padding: 0;
+    }
+
+    .main-navigation ul li:last-child a {
+        padding-right: 0em;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .section-standard {
+        padding: 0.5em;
+    }
+
+    .show-customer {
+        padding-top: 1em !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+        padding-bottom: 0.5em !important;
+    }
 }
 
 /*  start section
