@@ -39,7 +39,7 @@ if($router === '-1') {
     }
     else {
         $href=$baseurl.'media/firmware/' . $community . '/' . $type . '/' . $firmware_prefix . $router . $fileExtension . '.bin';
-        header('location: '.$href);
+        header('Location: '.$href);
         echo '<a href="'.$href.'">redirecting</a>';
     }
 }
@@ -47,5 +47,5 @@ if($router === '-1') {
 function backlink($t){
     echo $t;
     ?><br>
-    <br><a href="<?=$_SERVER["referer"]?>">zur&uuml;ck</a><?
+    <br><a href="<?=$_SERVER["referer"]?>">zur&uuml;ck</a>
 }
