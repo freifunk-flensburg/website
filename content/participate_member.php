@@ -1,7 +1,3 @@
-<?php
-require_once "config.inc.php";
-?>
-
 <form class="participate_download-form" id="download-form" action="firmware-download.php">
     <h3>Firmware-Download</h3>
     <label>Wähle eine Aktion aus:</label>
@@ -129,15 +125,31 @@ require_once "config.inc.php";
         </select>
     </div>
     <input type="submit" class="submit" value="Herunterladen">
-    <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
+    <p>Eine Anleitung wie du die <?=$site_title?> Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="<?=$config['wiki']['url']?>Einen_Knoten_einrichten">hier im Wiki</a>. Die <?=$site_title?> Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
-    <h2>Links zu Freifunk Flensburg</h2>
+    <h2>Links zu <?=$site_title?></h2>
     <ul>
-        <li><a target="_blank" href="http://wiki.freifunk-flensburg.de/wiki/Hauptseite">Freifunk Flensburg Wiki</a> - Unser gesammeltes Wissen</li>
-        <li><a target="_blank" href="https://github.com/freifunk-flensburg">GitHub</a> - Unser Code zum Mitbasteln</li>
-        <li><a target="_blank" href="http://map.freifunk-flensburg.de">Die Mesh-Map</a> - Unsere detailierte Knotenkarte</li>
-        <li><a target="_blank" href="http://nordlab-ev.de">nordlab e. V.</a></li>
+        <li>
+            <a target="_blank" href="<?=$config['wiki']['url']?>Hauptseite"><?=$config['wiki']['content']?></a><?
+            if(!empty($config['wiki']['more'])) echo ' - '.$config['wiki']['more'];
+            ?>
+        </li>
+        <li>
+            <a target="_blank" href="<?=$config['github']['url']?>"><?=$config['github']['content']?></a><?
+            if(!empty($config['github']['more'])) echo ' - '.$config['github']['more'];
+            ?>
+        </li>
+        <li>
+            <a target="_blank" href="<?=$config['map']['url']?>"><?=$config['map']['content']?></a><?
+            if(!empty($config['map']['more'])) echo ' - '.$config['map']['more'];
+            ?>
+        </li>
+        <li>
+            <a target="_blank" href="<?=$config['verein']['url']?>"><?=$config['verein']['content']?></a><?
+            if(!empty($config['verein']['more'])) echo ' - '.$config['verein']['more'];
+            ?>
+        </li>
     </ul>
     <h2>Allgemeine Freifunk Links</h2>
     <ul>
