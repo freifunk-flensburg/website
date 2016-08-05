@@ -367,9 +367,8 @@ html.sticky .logo a {
     }
 
     .main-navigation ul:hover {
-        background-size: 25px;
-        background: none;
-        padding-top: 0;
+        background-size: 30px;
+        padding-top: 1.5em;
     }
 
     .main-navigation ul li {
