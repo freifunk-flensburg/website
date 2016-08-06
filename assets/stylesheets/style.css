@@ -640,6 +640,10 @@ html.sticky .logo a {
     color:#dc0067; /* freifunk magenta */;
 }
 
+.participate_download-form .expertlist {
+    float: right;
+}
+
 .participate_list-links {
     width: 50%;
     float: right;

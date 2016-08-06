@@ -129,6 +129,7 @@ require_once "config.inc.php";
         </select>
     </div>
     <input type="submit" class="submit" value="Herunterladen">
+    <a class="expertlist" href="http://freifunk-flensburg.de/media/firmware/nordlab/">Dateiliste für Experten</a>
     <p>Eine Anleitung wie du die Freifunk Flensburg Firmware auf deinem Router selber installieren kannst findest du bei uns <a href="http://wiki.freifunk-flensburg.de/wiki/Einen_Knoten_einrichten">hier im Wiki</a>. Die Freifunk Flensburg Firmware steht unter der <a href="http://de.wikipedia.org/wiki/GNU_General_Public_License" target="_blank">GPL Lizenz</a>. Du darfst sie somit kostenlos nutzen, studieren, ändern und verbreiten.</p>
 </form>
 <aside class="participate_list-links">
