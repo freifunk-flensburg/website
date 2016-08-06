@@ -367,9 +367,9 @@ html.sticky .logo a {
     }
 
     .main-navigation ul:hover {
-        background-size: 25px;
-        background: none;
-        padding-top: 0;
+        background-position: right 1em top;
+        background-size: 30px;
+        padding-top: 1.5em;
     }
 
     .main-navigation ul li {
@@ -640,6 +640,10 @@ html.sticky .logo a {
     color:#dc0067; /* freifunk magenta */;
 }
 
+.participate_download-form .expertlist {
+    float: right;
+}
+
 .participate_list-links {
     width: 50%;
     float: right;
@@ -754,6 +758,22 @@ html.sticky .logo a {
 .bank_account {
     border-collapse: separate;
     border-spacing: 15px;
+}
+
+@media all and (max-width: 800px) {
+    .donate_left {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        border-right: 0;
+        padding-bottom: 1em;
+    }
+
+    .donate_right {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+    }
 }
 
 /*  contact section
