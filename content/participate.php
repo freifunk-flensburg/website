@@ -8,7 +8,7 @@
 </ul>
 <section class="show-customer">
     <article id="rookie" class="participate_show-customer active">
-        <?php include('content/participate_customer.php'); ?>
+        <?php require('content/participate_customer.php'); ?>
     </article>
 </section>
 <ul class="choose-customer participate_list-choose-customer">
@@ -21,7 +21,7 @@
 </ul>
 <section class="show-customer">
     <article id="member" class="participate_show-customer active">
-        <?php include('content/participate_member.php'); ?>
+        <?php require('content/participate_member.php'); ?>
     </article>
 </section>
 <ul class="choose-customer participate_list-choose-customer">
@@ -34,6 +34,6 @@
 </ul>
 <section class="show-customer">
     <article id="sponsor" class="participate_show-customer active">
-        <?php include('content/participate_sponsor.php'); ?>
+        <?php require('content/participate_sponsor.php'); ?>
     </article>
 </section>

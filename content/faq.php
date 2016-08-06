@@ -9,7 +9,7 @@
 		<h4>Frage</h4>
 		<p>Wie kann ich Freifunk nutzen?</p>
 		<h4>Antwort</h4>
-		<p>Sobald du im Empfangsbereich einer der Knoten bist kannst du Freifunk mit jedem WLAN-fähigem Gerät nutzen. Sei es Smartphone, Tablett oder PC. Sobald du ein WLAN angezeigt bekommst, welches den Namen flensburg.freifunk.net hat, kannst du dich dort ohne Passwort einloggen. Wo der nächste Knoten steht, siehst du auf unserer Karte.</p>
+		<p>Sobald du im Empfangsbereich einer der Knoten bist kannst du Freifunk mit jedem WLAN-fähigem Gerät nutzen. Sei es Smartphone, Tablett oder PC. Sobald du ein WLAN angezeigt bekommst, welches den Namen "<?=$ssid?>" hat, kannst du dich dort ohne Passwort einloggen. Wo der nächste Knoten steht, siehst du auf unserer Karte.</p>
 	</article>
 
 	<article class="faq_content">
